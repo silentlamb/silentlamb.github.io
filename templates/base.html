@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="{{ AUTHOR }}">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap-theme.min.css" type="text/css">
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="{{ SITEURL }}/css/github.css" type="text/css">
+	<link rel="stylesheet" href="{{ SITEURL }}/css/style.css" type="text/css">
+{% block meta %}{% endblock %}
+
+</head>
+
+<body>
+<div class="container index">
+{% block header %}
+    <div class="container header">
+        {% include "include/nav.html" %}
+	    <hgroup class="brand">
+		    <h3><a href="{{ SITEURL }}">{{ SITENAME }}</a></h3>
+		    <h4>{{ SITESUBNAME }}</h4>
+	    </hgroup>
+    </div><!-- header -->
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+<footer class="clearfix">
+{% block footer %}
+    {% if SOCIAL %}
+	<ul class="nav nav-pills pull-left">
+        {% for title, link, icon in SOCIAL %}
+		<li><a href="{{ link }}" title="on {{ title }}"><i class="fa {{ icon }}"></i></a></li>
+        {% endfor %}		
+	</ul>
+    {% endif %}
+		<p class="pull-right">2003-2014 &copy; <a href="{{ SITEURL }}">{{ AUTHOR }}</a>.
+    <span>Powered by <a href="http://getpelican.com/" rel="external">Pelican</a></p>
+{% endblock %}
+</footer>
+
+</div>
+</body>
+</html>

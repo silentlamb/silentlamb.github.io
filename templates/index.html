@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Home | {{ AUTHOR }}{% endblock %}
+
+{%- block content %}
+{%- if articles_page and articles_page.object_list[:5]|length > 0 %}
+    {%- for article in articles_page.object_list[:5] %}
+        {%- set is_article_in_first_column = (loop.index0 - 1) % 2 == 0 %}
+        {%- set is_article_in_last_column = (loop.index0 - 1) % 2 == 2 %}
+        {%- if loop.first %}
+        <div class="container featured">
+            {% include "include/article-big.html" %}
+        </div>
+
+        <div id="article-list">
+        {%- else %}
+            {#
+            {%- if is_article_in_first_column %}
+            #}
+	        <div class="row">
+            {#
+            {%- endif %}
+            #}
+
+            {%- include "include/article-small.html" %}
+
+            {#
+            {%- if is_article_in_last_column %}
+            #}	        
+            </div>
+            {#            
+            {%- endif %}
+            #}
+        {%- endif %}
+        {%- if loop.last %}
+        </div>
+        {%- endif %}	
+    {%- endfor %}
+{%- else %}
+<div class="container featured">
+	<article>
+		<header>
+			<h3>Oooops!</h3>
+		</header>
+
+		<p>No article found. No content has been added  yet!</p> 
+	</article>
+</div>
+{%- endif %}
+{%- endblock %}

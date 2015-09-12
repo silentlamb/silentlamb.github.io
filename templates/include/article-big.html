@@ -1,0 +1,17 @@
+<article>
+    <header>
+        <h3><a href="{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
+        <p class="pubdate">Published: <time datetime="" title="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
+        <ul class="list-unstyled labels">
+        {% if article.category %}
+            <li class="label label-default">Category</li>
+        {% endif %}
+        {% for tag in article.tags %}
+            <li class="label label-success">{{ tag }}</li>
+        {% endfor %}
+        </ul></p>
+    </header>
+
+    {{ article.summary }}
+    <p class="pull-right"><a class="btn btn-primary btn-xs" href="{{ SITEURL }}/{{ article.url }}">Read More &raquo;</a></p> 
+</article>
