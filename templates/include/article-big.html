@@ -4,7 +4,7 @@
         <p class="pubdate">Published: <time datetime="" title="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
         <ul class="list-unstyled labels">
         {% if article.category %}
-            <li class="label label-default">Category</li>
+            <li class="label label-default">{{ article.category }}</li>
         {% endif %}
         {% for tag in article.tags %}
             <li class="label label-success">{{ tag }}</li>
