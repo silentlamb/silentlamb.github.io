@@ -239,6 +239,12 @@ footer
         margin: 1.3em auto;
     }
 
+.comments
+{
+    max-width: 720px;
+    margin: 0 auto;  
+}
+
 .debug-level-low {
     background: #FFFF00 !important;
     color: #000;
