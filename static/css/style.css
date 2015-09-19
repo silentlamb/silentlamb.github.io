@@ -200,7 +200,8 @@ footer
 	}
 
     .single-article ul {
-        line-height: 1.8em;
+        font-size: 1.35em;
+        line-height: 1.7em;
     }
 
     .single-article header
@@ -238,6 +239,12 @@ footer
         line-height: 1.35em;
         margin: 1.3em auto;
     }
+
+.comments
+{
+    max-width: 720px;
+    margin: 0 auto;  
+}
 
 .debug-level-low {
     background: #FFFF00 !important;
