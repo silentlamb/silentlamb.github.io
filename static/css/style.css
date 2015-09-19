@@ -176,11 +176,12 @@ footer
 .single-article {
 		max-width: 720px;
 		margin: 40px auto 0 auto;
+        font-size: 1.35em;
 	}
 
 	.single-article h2
 	{
-	  font-size: 2.2em;
+	  font-size: 1.2em;
 	  font-weight: 700;
 	  line-height: 1.3em;
 	  margin: 0 auto;
@@ -195,12 +196,10 @@ footer
 
 	.single-article p
     {
-        font-size: 1.35em;
 		line-height: 1.7em;
 	}
 
     .single-article ul {
-        font-size: 1.35em;
         line-height: 1.7em;
     }
 
@@ -212,7 +211,7 @@ footer
     .single-article h3
     {
         margin: 2em auto 1em auto;
-        font-size: 2em;
+        font-size: 1.3em;
         font-weight: bold;
         color: #222;
     }
@@ -220,7 +219,7 @@ footer
     .single-article h4
     {
         margin: 2em auto 1em auto;
-        font-size: 1.85em;
+        font-size: 1.2em;
         font-weight: bold;
         color: #222;
     }
@@ -228,14 +227,13 @@ footer
     .single-article h5 
     {
         margin: 2em auto 1em auto;
-        font-size: 1.7em;
+        font-size: 1.1em;
         font-weight: bold;
         color: #222;    
     }
 
     .highlight pre
     {
-        font-size: 1.2em;
         line-height: 1.35em;
         margin: 1.3em auto;
     }
