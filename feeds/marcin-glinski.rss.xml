@@ -68,4 +68,224 @@ want them to be here.&lt;/p&gt;
                        `---&amp;#39;&amp;quot;mMMMMMMMMm,_      `-----&amp;#39;        `&amp;quot;&amp;quot;
                             `&amp;quot; &amp;quot;^`^MMMP^^mm,
                                                           fsc
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Sat, 12 Sep 2015 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Sat, 12 Sep 2015 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</guid></item><item><title>LD33: Day 1</title><link>http://blog.marcinglinski.pl/2015-08/ld33-day-1.html</link><description>&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+at the day 1 of LD33 event. It's added here so I can keep everything related
+to a gamedev in a single place.&lt;/p&gt;
+
+
+&lt;h3&gt;Day 1&lt;/h3&gt;
+&lt;p&gt;Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day&amp;nbsp;1 is
+almost done so let me summarize my work today:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finished&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Testing custom engine for the first time; not working perfectly, but not as
+  bad as the last time.&lt;/li&gt;
+&lt;li&gt;Main character animations and some static assets&lt;/li&gt;
+&lt;li&gt;Integration with Box2D. Tons of stupid issues to resolve. Good lesson.&lt;/li&gt;
+&lt;li&gt;Loading level from .png files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;TODO for Day 2&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enemies: path finding, very simple AI&lt;/li&gt;
+&lt;li&gt;More gfx/sfx assets&lt;/li&gt;
+&lt;li&gt;Rendering optimizations and fixes&lt;/li&gt;
+&lt;li&gt;Juicing the game up (screen shakes, explosions!)&lt;/li&gt;
+&lt;li&gt;Design more levels and simple plot structure&lt;/li&gt;
+&lt;li&gt;Come up with the title...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
+assets again.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Sat, 22 Aug 2015 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</guid><category>imported</category><category>ludum-dare</category></item><item><title>LD30: Node54 - final thoughts</title><link>http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html</link><description>&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+as a post mortem of my LD30 entry. It's added here so I can keep everything 
+related to a gamedev in a single place.&lt;/p&gt;
+
+
+&lt;h3&gt;Node54 - final thoughts&lt;/h3&gt;
+&lt;p&gt;In the &lt;a href="http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html"&gt;previous post&lt;/a&gt; published during competition, I've described my background
+and reasons to participate in Ludum Dare. This time I'd like to talk about
+conclusions that came to my mind after finishing LD30 entry and receiving
+feedback from various people.&lt;/p&gt;
+&lt;h4&gt;My goals&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish a game. This could be the single goal because this is the main reason 
+  I've joined LD&lt;/li&gt;
+&lt;li&gt;The game should be simple enough so it might be done by someone having no 
+  experience in gamedev. This means I wanted to use existing idea because
+  having no experience in gamedev means I won't be able to finish the game if I
+  tried to do something too original.&lt;/li&gt;
+&lt;li&gt;The game should not have "raw" visuals&lt;/li&gt;
+&lt;li&gt;The game should have some kind of audio: sounds of sfxer + a simple music in
+  the background&lt;/li&gt;
+&lt;li&gt;The game should be fast-paced and the goal for player is to finish it as fast
+  as he/she can&lt;/li&gt;
+&lt;li&gt;The game should be looking polished; it should have bindable keys, and
+  reasonable amount of juicyness&lt;/li&gt;
+&lt;li&gt;The game should have possibility to be improved when LD30 is finished&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Node54 with an example level" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0003-level.png" /&gt;&lt;/p&gt;
+&lt;h4&gt;What went right&lt;/h4&gt;
+&lt;h5&gt;I've finished playable game&lt;/h5&gt;
+&lt;p&gt;I wasn't sure I was good enough to actually finish a game. I've tried thousands
+of times but every time it stopped being a game engine instead of actual game.
+Node54 is real and I'm very happy and proud of myself.&lt;/p&gt;
+&lt;h5&gt;The game doesn't crash&lt;/h5&gt;
+&lt;p&gt;When it works, it works. It doesn't look to have much bugs expect the collision
+issues and sticking to walls.&lt;/p&gt;
+&lt;h5&gt;Visuals&lt;/h5&gt;
+&lt;p&gt;The game is not a kind of beauty, but it also doesn't look bad. My goal of
+having not ugly visuals has been fulfilled. Friends told me that the game
+background with irregular squares looks really nice when compared to ideal
+squares of walls. The best thing is that I've made it for about 4-5 minutes.
+Gimp -&amp;gt; pick blue color -&amp;gt; create clouds from filters -&amp;gt; motion blur -&amp;gt; create
+mosaic from filters. That's all!&lt;/p&gt;
+&lt;h5&gt;Experience&lt;/h5&gt;
+&lt;p&gt;I still want to improve it, I got plenty of ideas so further development will
+be continued for sure. Now that I have already a playable it's gonna be much
+easier.&lt;/p&gt;
+&lt;p&gt;I've learned a lot. I've improved some technical skills as well as mental ones.
+Finishing this game gave me enormous amount of confidence and motivation. I've
+learned the importance of having 10-30 minutes long breaks from a work. Proper
+amount of sleep is also substantial. The best thing about our brain is that
+when we sleep it doesn't fully shutdown. It's resting in a standby mode in
+which it dumps a lot of garbage thoughts. When you wake up (after morning
+coffee of course) it contains with thousands of ideas what to do next and how
+to do it. If I wasn't sleeping for at least 6 hours every day, me rate of work
+would be significantly slower. I also wanted to to let it go on the second day.
+My code was so much of garbage that I couldn't implement anything I wanted. So
+i thought to myself: time for a shower and some hot beverage. It helped. I
+refactored few critical "god" classes and everything started to work as I
+wanted it to.&lt;/p&gt;
+&lt;h5&gt;Linux port&lt;/h5&gt;
+&lt;p&gt;Linux port which I haven't planned. The good thing about using a wrapper lib
+like SFML is that porting is very simple. The code is almost not touched
+(almost), and the only thing you need to resolve is compilation and linking to
+be finished successfully.&lt;/p&gt;
+&lt;h4&gt;What went wrong&lt;/h4&gt;
+&lt;h5&gt;Time management&lt;/h5&gt;
+&lt;p&gt;I wasn't quite aware of how little time I was given. My first idea for the
+development of Node54 was to implement physics (movement + collisions) by
+myself. By the end of day one I was having movement of poor quality and no
+collision at all. When I was thinking on the collision module design I realized
+that it's going be very, very thought to finish. So many edge cases, so many
+debugging. And then I read in some social media post that this guy has
+something playable thanks to Box2D. I heard about this library but that's all.
+So I've decided to give it a try. Manual was kind of well-written, so I've
+managed to finish collision system. What went wrong? I was learning Box2D from
+scratch and due to no experience I wasn't aware of several issues. First of
+all, visual debugging. If I could prepare it before LD it would be much easier
+to resolve issues related to pixels-&amp;gt;meters conversions and not updating
+Box2D/SFML positions. Next thing are issues with friction. Walls in Node54 are
+simple rectangles. This means that friction attached to them is the same
+horizontally and vertically. Because of that player sometimes stick to walls.
+If I divided every block to 4 triangles I could set different friction to
+different part of the wall block. Another thing is collision box of the player.
+I've used simple rectangle because I wanted to replace this temporary drawn
+blue guy with something better. The idea was to add a frame to look more like a
+moving platform. I didn't have enough time to have it done.&lt;/p&gt;
+&lt;h5&gt;Temporary visuals&lt;/h5&gt;
+&lt;p&gt;There is a saying in software development, that temporary solutions are the
+most persistent. I really wanted to make it more pixelarty, unfortunately my
+pixel art skills requires quite a long piece of time which I could not afford.&lt;/p&gt;
+&lt;h5&gt;Quality of audio&lt;/h5&gt;
+&lt;p&gt;The only sounds I've added to the game were simple samples generated by sfxer.
+Unfortunately I haven't read the documentation carefully, so instead setting
+volume within the range of (0.f - 100.f) I used (0.f - 1.f).  This means that
+sound cannot be heard. I wanted to create some chip tune music in Milky Tracker
+but again: no time and no skills to make it fast. I definitely want to improve
+that in the future.&lt;/p&gt;
+&lt;h5&gt;Lack of feedback&lt;/h5&gt;
+&lt;p&gt;No guide for a player what the game is about and how to play it. For me it was
+obvious that I move using arrow keys and when you want to move up you need to
+push yourself from the ground. It was also obvious that when player is given
+too much of speed it's going to crash during contact with walls. Player don't
+receive any feedback and is not given any guide of the rules. He doesn't know
+that he has to pick cargo boxes of a color and deliver it to the flag of same
+color. He doesn't know that to pick a cargo he needs to press spacebar key. He
+doesn't know that when you pick a cargo it cannot be dropped until delivered. A
+lot of little things so obvious to me.&lt;/p&gt;
+&lt;h5&gt;Lack of juiciness&lt;/h5&gt;
+&lt;p&gt;No juiciness in game. No animations. I've skipped animation part because I
+thought that it's going to take too much development time from me. So
+everything is static. In my engine I don't even have a class for animations. I
+started to drawing some animations (explosion which is present in the assets
+folder) but it only took some time and didn't make it to the final game. There
+is no screen shake when player dies. There are no particles when the player
+starts moving. This little things that make every game look polished.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tilesets from the game" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0004-atlas.png" /&gt;&lt;/p&gt;
+&lt;h4&gt;What next?&lt;/h4&gt;
+&lt;p&gt;LD30 entry is finished so now it's plenty of time to resolve every issues and
+implement every feature I wanted. To make this game look the way I want it to
+look. I'm going to start a project devlog thread on TigSource forums if you are
+interested. If you want to give the game a try, here's the &lt;a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&amp;amp;uid=40102"&gt;entry page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;edit [2015-09-19]&lt;/em&gt;: After few minor improvements (audio and visual 
+alarm when player's speed is too high, fixed sticking to walls bug) the
+project got dumped in order to work on different things.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Sat, 30 Aug 2014 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</guid><category>imported</category><category>ludum-dare</category><category>post-mortem</category></item><item><title>LD30: Let's meet Node54</title><link>http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html</link><description>&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+at the day 1 of LD30. It's added here so I can keep everything related to
+a gamedev in a single place.&lt;/p&gt;
+
+
+&lt;h3&gt;Let's meet Node54&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;skipped introduction&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;But I love game development. I read tons of stuff. I try to think about
+various algorithms or design patterns that might be used to resolve some
+problem that bugs me. The problem is, I haven't finish anything yet. All
+of my game development stops on the engine.&lt;/p&gt;
+&lt;p&gt;So one day, looking at the calendar I saw that my wife with son are
+going out and they won't be at home for the whole weekend. And the great
+thing about it is that the same weekend belongs to LD30! So I thought to
+myself: why not try to sign in? And here I am.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Main screen of Node54" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0002-title.png" /&gt;&lt;/p&gt;
+&lt;p&gt;So after 10h of design and development (Inkscape, GIMP, PyxelEdit, VS
+C++ &amp;amp; SFML lib) I've achieved the following state:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple rendering engine using stack states is done&lt;/li&gt;
+&lt;li&gt;Resources management (textures, fonts) is finished&lt;/li&gt;
+&lt;li&gt;Level loader that uses .png files as its input is finished&lt;/li&gt;
+&lt;li&gt;Level mechanics&lt;/li&gt;
+&lt;li&gt;Simple assets are finished: menu background, game background and&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still to be done:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collision detection, this is main mechanics&lt;/li&gt;
+&lt;li&gt;Player movement based on gravity&lt;/li&gt;
+&lt;li&gt;Audio effects &amp;amp; Music (there's gonna be no music probably as I don't 
+  know much about this topic)&lt;/li&gt;
+&lt;li&gt;Sprite polishing&lt;/li&gt;
+&lt;li&gt;Better input handling: Joystick support + rebindable keys&lt;/li&gt;
+&lt;li&gt;Maybe (big maybe) PCG-ed levels&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Sat, 23 Aug 2014 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ld30-lets-meet-node54.html</guid><category>imported</category><category>ludum-dare</category></item><item><title>LD33: I’m in for the 2nd time</title><link>http://blog.marcinglinski.pl/2014-08/ld33-im-in-for-the-2nd-time.html</link><description>&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+at the day 1 of LD30. It's added here so I can keep everything related to
+a gamedev in a single place.&lt;/p&gt;
+
+
+&lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
+&lt;p&gt;Hello fellow gamedevs!&lt;/p&gt;
+&lt;p&gt;My first time (LD30) was a great experience and I really wanted to participate
+again. And I’ve got opportunity to join this time!&lt;/p&gt;
+&lt;p&gt;My goals for this LD are quite similar to the previous ones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish a playable game. That’s everyone’s main goal, so not much to say.&lt;/li&gt;
+&lt;li&gt;This time I want to focus on introducing concept of the game to the player,
+  so he or she won’t get lost. Last time it was a total failure. Players didn’t
+  know what was the goal of the game, nor how to control the avatar, nor what are
+  rules to the game.&lt;/li&gt;
+&lt;li&gt;Keep visual simple, but of decent quality. If the topic is right I might even
+  try to use a really simple shapes (circles and rectangles). The main focus is
+  going to be on a good mix of colors, and little things like gradients and
+  shadows. Last time I spent too much time creating unused animation.&lt;/li&gt;
+&lt;li&gt;More fx sounds. Sound is a great tool for the feedback and to make the game
+  feel alive. I hope I won’t mess the API this time and use the valid volume
+  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.&lt;/li&gt;
+&lt;li&gt;Music. Any music. I’m not a musican at all, but since the beginning of this
+  year I’ve been working in the audio/DSP related project. If it’s possible
+  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
+  tool of use is going to be Milky Tracker, unless I find something easy to use.&lt;/li&gt;
+&lt;li&gt;I have no idea what theme is going to win, but if possible I’m gonna try to
+  make something fast-paced. Last time I tried to make clone of “Ugh!” game.
+  This time again I’m gonna stick to already explored concepts. It’s still to
+  early to me to create anything original, I’d rather focus my work in other
+  fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
+C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
+&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcin Gliński</dc:creator><pubDate>Wed, 06 Aug 2014 00:00:00 +0200</pubDate><guid>tag:blog.marcinglinski.pl,2014-08-06:2014-08/ld33-im-in-for-the-2nd-time.html</guid><category>imported</category><category>ludum-dare</category></item></channel></rss>
