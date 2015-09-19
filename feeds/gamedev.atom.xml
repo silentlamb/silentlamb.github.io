@@ -26,7 +26,42 @@ almost done so let me summarize my work today:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
 assets again.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD30: Node54 - final thoughts</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html" rel="alternate"></link><updated>2014-08-30T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD33: I’m in for the 2nd time</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-im-in-for-the-2nd-time.html" rel="alternate"></link><updated>2015-08-06T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-06:2015-08/ld33-im-in-for-the-2nd-time.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+at the day 1 of LD30. It's added here so I can keep everything related to
+a gamedev in a single place.&lt;/p&gt;
+
+
+&lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
+&lt;p&gt;Hello fellow gamedevs!&lt;/p&gt;
+&lt;p&gt;My first time (LD30) was a great experience and I really wanted to participate
+again. And I’ve got opportunity to join this time!&lt;/p&gt;
+&lt;p&gt;My goals for this LD are quite similar to the previous ones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish a playable game. That’s everyone’s main goal, so not much to say.&lt;/li&gt;
+&lt;li&gt;This time I want to focus on introducing concept of the game to the player,
+  so he or she won’t get lost. Last time it was a total failure. Players didn’t
+  know what was the goal of the game, nor how to control the avatar, nor what are
+  rules to the game.&lt;/li&gt;
+&lt;li&gt;Keep visual simple, but of decent quality. If the topic is right I might even
+  try to use a really simple shapes (circles and rectangles). The main focus is
+  going to be on a good mix of colors, and little things like gradients and
+  shadows. Last time I spent too much time creating unused animation.&lt;/li&gt;
+&lt;li&gt;More fx sounds. Sound is a great tool for the feedback and to make the game
+  feel alive. I hope I won’t mess the API this time and use the valid volume
+  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.&lt;/li&gt;
+&lt;li&gt;Music. Any music. I’m not a musican at all, but since the beginning of this
+  year I’ve been working in the audio/DSP related project. If it’s possible
+  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
+  tool of use is going to be Milky Tracker, unless I find something easy to use.&lt;/li&gt;
+&lt;li&gt;I have no idea what theme is going to win, but if possible I’m gonna try to
+  make something fast-paced. Last time I tried to make clone of “Ugh!” game.
+  This time again I’m gonna stick to already explored concepts. It’s still to
+  early to me to create anything original, I’d rather focus my work in other
+  fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
+C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
+&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD30: Node54 - final thoughts</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html" rel="alternate"></link><updated>2014-08-30T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 as a post mortem of my LD30 entry. It's added here so I can keep everything 
 related to a gamedev in a single place.&lt;/p&gt;
 
@@ -184,39 +219,4 @@ C++ &amp;amp; SFML lib) I've achieved the following state:&lt;/p&gt;
 &lt;li&gt;Sprite polishing&lt;/li&gt;
 &lt;li&gt;Better input handling: Joystick support + rebindable keys&lt;/li&gt;
 &lt;li&gt;Maybe (big maybe) PCG-ed levels&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD33: I’m in for the 2nd time</title><link href="http://blog.marcinglinski.pl/2014-08/ld33-im-in-for-the-2nd-time.html" rel="alternate"></link><updated>2014-08-06T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-06:2014-08/ld33-im-in-for-the-2nd-time.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
-at the day 1 of LD30. It's added here so I can keep everything related to
-a gamedev in a single place.&lt;/p&gt;
-
-
-&lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
-&lt;p&gt;Hello fellow gamedevs!&lt;/p&gt;
-&lt;p&gt;My first time (LD30) was a great experience and I really wanted to participate
-again. And I’ve got opportunity to join this time!&lt;/p&gt;
-&lt;p&gt;My goals for this LD are quite similar to the previous ones:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Finish a playable game. That’s everyone’s main goal, so not much to say.&lt;/li&gt;
-&lt;li&gt;This time I want to focus on introducing concept of the game to the player,
-  so he or she won’t get lost. Last time it was a total failure. Players didn’t
-  know what was the goal of the game, nor how to control the avatar, nor what are
-  rules to the game.&lt;/li&gt;
-&lt;li&gt;Keep visual simple, but of decent quality. If the topic is right I might even
-  try to use a really simple shapes (circles and rectangles). The main focus is
-  going to be on a good mix of colors, and little things like gradients and
-  shadows. Last time I spent too much time creating unused animation.&lt;/li&gt;
-&lt;li&gt;More fx sounds. Sound is a great tool for the feedback and to make the game
-  feel alive. I hope I won’t mess the API this time and use the valid volume
-  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.&lt;/li&gt;
-&lt;li&gt;Music. Any music. I’m not a musican at all, but since the beginning of this
-  year I’ve been working in the audio/DSP related project. If it’s possible
-  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
-  tool of use is going to be Milky Tracker, unless I find something easy to use.&lt;/li&gt;
-&lt;li&gt;I have no idea what theme is going to win, but if possible I’m gonna try to
-  make something fast-paced. Last time I tried to make clone of “Ugh!” game.
-  This time again I’m gonna stick to already explored concepts. It’s still to
-  early to me to create anything original, I’d rather focus my work in other
-  fields.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
-C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
-&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>
+&lt;/ul&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>
