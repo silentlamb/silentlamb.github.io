@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/gamedev.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2015-08-22T00:00:00+02:00</updated><entry><title>LD33: Day 1</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-day-1.html" rel="alternate"></link><updated>2015-08-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/gamedev.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2015-09-19T00:00:00+02:00</updated><entry><title>LD33: Ghosty Game post mortem</title><link href="http://blog.marcinglinski.pl/2015-09/ld33-ghosty-game-post-mortem.html" rel="alternate"></link><updated>2015-09-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-19:2015-09/ld33-ghosty-game-post-mortem.html</id><summary type="html">&lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
+&lt;p&gt;My main goal - making the game in time for the &lt;em&gt;Compo&lt;/em&gt; - has not been fulfiled.
+I was far from having anything ready to be send and the deadline has been reached.
+After getting some sleep, rest and spending time with a family I decided not to
+give up completely and try to finish anything for the &lt;em&gt;Jam&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;For these readers who have no clue what's the difference between &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; compo and Jam, 
+in really short summary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Time to post entry to the compo is 48h, while for Jam it's 72h&lt;/li&gt;
+&lt;li&gt;You are only allowed to work alone in the Compo, but for Jam you might work in a 
+  team made of programmers, gfx artists, musicans, etc.&lt;/li&gt;
+&lt;li&gt;For Compo you must create all assets (graphics, audio) by yourself and all of 
+  these need to be made during the 48h of the Compo. For Jam you are allowed to
+  use already existing assets.&lt;/li&gt;
+&lt;li&gt;Compo is very strict and limiting, Jam is more chilled out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Results&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    .---------------.-----------------.-----------------.
+    |               |      LD 30      |       LD 33     |
+    |  Category     |                 |                 |
+    |               |  Score |  Place |  Score |  Place |
+    +---------------+------- +--------+--------+--------+
+    | Overall       |  2.79  |   950  |  3.00  |   716  | 
+    | Audio         |  2.19  |   816  |  2.41  |   623  |
+    | Fun           |  2.85  |   730  |  3.11  |   485  |
+    | Graphics      |  2.85  |   727  |  2.94  |   734  |
+    | Humor         |  2.67  |   354  |  ----  |   ---  |
+    | Innovation    |  2.44  |  1022  |  2.53  |   873  |
+    | Mood          |  2.75  |   766  |  ----  |   ---  |
+    | Theme         |  2.33  |  1056  |  2.31  |  1049  |
+    `---------------&amp;#39;--------&amp;#39;--------&amp;#39;--------&amp;#39;--------&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The results are overall better. Keep in mind that in Jam you compete against
+teams of people; it's much harder to get better score due to this single fact.
+I was really suprised that my overall score was that high as the game was
+far from being finished. I've been slowly working on enhancing my graphics
+and audio skills and it seems like some progress has been made.&lt;/p&gt;
+&lt;p&gt;No humor and mood categories as I disabled them.&lt;/p&gt;
+&lt;h3&gt;Timelapse&lt;/h3&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8HihdhlJQYA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;What went right&lt;/h3&gt;
+&lt;p&gt;I won't repeat my goals as they might be found on the previous entry. Let's jump
+right into the right things!&lt;/p&gt;
+&lt;h4&gt;Visuals&lt;/h4&gt;
+&lt;p&gt;I'm really happy that my pixel-art skills got improved. I was able to create
+some animations and (for a beginner) decent looking characters. However, there is
+still much more to be improved. My next goal is to be able to produce content
+of similar quality to the &lt;a href="http://oryxdesignlab.com/ultimatefantasy"&gt;Ultimate Fantasy tileset&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Working on the assets" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0007-pyxel.jpg" /&gt;&lt;/p&gt;
+&lt;h4&gt;Audio&lt;/h4&gt;
+&lt;p&gt;Good side of the audio was the music. I've used Bosca Ceoil program for the first
+time and it was very easy to create a simple tune. I think it's good idea to stick
+to this program for a now and focus on other fields. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bosca Ceoil music editor" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0006-music.jpg" /&gt;&lt;/p&gt;
+&lt;h4&gt;Entity Component System&lt;/h4&gt;
+&lt;p&gt;Before the &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; I was working on my custom engine based on &lt;abbr title="Entity Component System"&gt;ECS&lt;/abbr&gt; architecture.
+I had no actual game to test if it works properly so &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; was a first real test.
+There were nasty bugs that took some time from my developement, but overall
+I'm really happy with the architecture. If you start thinking with components
+and not game objects, everything magically starts working. If you got your
+rendering, physics and audio systems already prepared you might focus on 
+actual gameplay because attaching proper components will make everything 
+magically work!&lt;/p&gt;
+&lt;h3&gt;What went wrong&lt;/h3&gt;
+&lt;h4&gt;Deadline missed&lt;/h4&gt;
+&lt;p&gt;I was unable to deliver in time an entry for compo. I've lost over 6 hours of 
+development due to a basic indexing issue which shouldn't happen to any 
+software engineer. I didn't have any physic system ready to be used so I had
+to make one by myself. This combined with not tested &lt;abbr title="Entity Component System"&gt;ECS&lt;/abbr&gt;-based engine resulted
+in too much time spent in a debugger trying to figure out what's going on.
+Lesson (I hope) learnt and (I hope) next time I'll focus more on actual
+gameplay.&lt;/p&gt;
+&lt;h4&gt;Lack of gameplay&lt;/h4&gt;
+&lt;p&gt;As I've lost too much time fighting windmills, no planned gameplay
+feature has been implemented. My plan was to create a stealth evasion
+game with static obstacles, moving enemies with their cone of view, 
+sound alarm system, and simple logic puzzle (push this button to activate 
+that). &lt;/p&gt;
+&lt;h4&gt;What next&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add more features to the &lt;a href="https://github.com/silentlamb/mve-engine"&gt;mve-engine&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Cinematics&lt;/li&gt;
+&lt;li&gt;Animators&lt;/li&gt;
+&lt;li&gt;Shaders and processing effects&lt;/li&gt;
+&lt;li&gt;Input rebinding&lt;/li&gt;
+&lt;li&gt;Dynamic audio system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Prepare level parser to be used&lt;ul&gt;
+&lt;li&gt;Parse image (png) based maps&lt;/li&gt;
+&lt;li&gt;Parse PyxelEdit txt format&lt;/li&gt;
+&lt;li&gt;(optional) Parse Tiled map format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Implement algorithm to reduce unnecessary number of rigid bodies when loading a map&lt;/li&gt;
+&lt;li&gt;Prepare for LD34 (12-14 Dec, 2015)&lt;/li&gt;
+&lt;li&gt;Continue improving on pixel arts&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="post-mortem"></category><category term="ludum-dare"></category></entry><entry><title>LD33: Day 1</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-day-1.html" rel="alternate"></link><updated>2015-08-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 at the day 1 of LD33 event. It's added here so I can keep everything related
 to a gamedev in a single place.&lt;/p&gt;
 
