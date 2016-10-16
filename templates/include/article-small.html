@@ -1,8 +1,10 @@
 <article class="col-sm-12">
     <header>
         <h3><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
-        <time  title="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
-{#
+        <p class="pubdate">Published: 
+          <time title="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
+        </p>
+
         <ul class="list-unstyled labels">
         {% if article.category %}
             <li class="label label-default">{{ article.category }}</li>
@@ -10,10 +12,10 @@
         {% for tag in article.tags %}
             <li class="label label-success">{{ tag }}</li>
         {% endfor %}
-#}
+
         </ul>
     </header>
-{#
+
     <p>{{ article.summary | striptags }} <a href="{{ SITEURL }}/{{ article.url }}"> &raquo; </a></p>
-#}
+
 </article>
