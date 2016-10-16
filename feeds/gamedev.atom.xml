@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/gamedev.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-01-01T00:00:00+01:00</updated><entry><title>New Beginning­ ­— Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record increased 
-gainings. Side walks are full of wannabe runners and tabaco industry records decline
-in profits.&lt;/p&gt;
-&lt;p&gt;I've decided to join the New Year's train and start something new. There are stories
-that happen to start with "Once upon a time". There a stories that begins with "So, you wanna hear
-another story, eh?". My story starts with...&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/gamedev.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-01-01T00:00:00+01:00</updated><entry><title>New Beginning­— Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record 
+increased gainings. Side walks are full of wannabe runners and tabaco 
+industry records decline in profits.&lt;/p&gt;
+&lt;p&gt;I've decided to join the New Year's train and start something new. There are 
+stories that happen to start with "Once upon a time". There a stories that 
+begins with "So, you wanna hear another story, eh?". My story starts with...&lt;/p&gt;
 
 
 &lt;h3&gt;The logo&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Melted Vertex Games logo" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0009-logo.png" /&gt;
 &lt;em class="center-block text-center"&gt;Melted Vertex Games logo&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;This single person hobby project called "Melted Vertex Games" with a bit of luck and dozen
-of determination will hopefully create new chapter in my life. You know how they say,
-"Start small, dream big". And that's what I'm going to do.&lt;/p&gt;</summary><category term="mvg"></category><category term="art"></category></entry><entry><title>LD33: Ghosty Game post mortem</title><link href="http://blog.marcinglinski.pl/2015-09/ld33-ghosty-game-post-mortem.html" rel="alternate"></link><updated>2015-09-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-19:2015-09/ld33-ghosty-game-post-mortem.html</id><summary type="html">&lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
+&lt;p&gt;This single person hobby project called "Melted Vertex Games" with a
+bit of luck and dozen of determination will hopefully create new chapter 
+in my life. You know how they say, "Start small, dream big". And that's 
+what I'm going to do.&lt;/p&gt;</summary><category term="mvg"></category><category term="art"></category></entry><entry><title>LD33: Ghosty Game post mortem</title><link href="http://blog.marcinglinski.pl/2015-09/ld33-ghosty-game-post-mortem.html" rel="alternate"></link><published>2015-09-19T00:00:00+02:00</published><updated>2015-09-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-19:2015-09/ld33-ghosty-game-post-mortem.html</id><summary type="html">&lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
 &lt;p&gt;My main goal — making the game in time for the &lt;em&gt;Compo&lt;/em&gt; — has not been acomplished.
 I was far from having anything ready to be send and the deadline has been reached.
 After getting some sleep, rest and spending time with family I decided not to
@@ -31,7 +32,7 @@ in short:&lt;/p&gt;
 &lt;li&gt;Compo is very strict and limiting, while Jam is more careless&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Results&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    ​ 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ​ 
 ​
 
   .---------------.-----------------.-----------------.
@@ -160,7 +161,7 @@ tasks, I've made the list of things to be done:&lt;/p&gt;
 &lt;li&gt;Implement algorithm to reduce unnecessary number of rigid bodies when loading a map&lt;/li&gt;
 &lt;li&gt;Prepare for LD34 (12-14 Dec, 2015)&lt;/li&gt;
 &lt;li&gt;Continue improving on pixel arts&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="post-mortem"></category><category term="ludum-dare"></category></entry><entry><title>LD33: Day 1</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-day-1.html" rel="alternate"></link><updated>2015-08-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+&lt;/ul&gt;</summary><category term="post-mortem"></category><category term="ludum-dare"></category></entry><entry><title>LD33: Day 1</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-day-1.html" rel="alternate"></link><published>2015-08-22T00:00:00+02:00</published><updated>2015-08-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 at the day 1 of LD33 event. It's added here so I can keep everything related
 to a gamedev in a single place.&lt;/p&gt;
 
@@ -187,7 +188,7 @@ almost done so let me summarize my work today:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
 assets again.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD33: I’m in for the 2nd time</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-im-in-for-the-2nd-time.html" rel="alternate"></link><updated>2015-08-06T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-06:2015-08/ld33-im-in-for-the-2nd-time.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD33: I’m in for the 2nd time</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-im-in-for-the-2nd-time.html" rel="alternate"></link><published>2015-08-06T00:00:00+02:00</published><updated>2015-08-06T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-06:2015-08/ld33-im-in-for-the-2nd-time.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 at the day 1 of LD30. It's added here so I can keep everything related to
 a gamedev in a single place.&lt;/p&gt;
 
@@ -222,7 +223,7 @@ again. And I’ve got opportunity to join this time!&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
 C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
-&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD30: Node54 - final thoughts</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html" rel="alternate"></link><updated>2014-08-30T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD30: Node54 - final thoughts</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html" rel="alternate"></link><published>2014-08-30T00:00:00+02:00</published><updated>2014-08-30T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 as a post mortem of my LD30 entry. It's added here so I can keep everything 
 related to a gamedev in a single place.&lt;/p&gt;
 
@@ -346,7 +347,7 @@ look. I'm going to start a project devlog thread on TigSource forums if you are
 interested. If you want to give the game a try, here's the &lt;a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&amp;amp;uid=40102"&gt;entry page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;edit [2015-09-19]&lt;/em&gt;: After few minor improvements (audio and visual 
 alarm when player's speed is too high, fixed sticking to walls bug) the
-project got dumped in order to work on different things.&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category><category term="post-mortem"></category></entry><entry><title>LD30: Let's meet Node54</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html" rel="alternate"></link><updated>2014-08-23T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ld30-lets-meet-node54.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
+project got dumped in order to work on different things.&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category><category term="post-mortem"></category></entry><entry><title>LD30: Let's meet Node54</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html" rel="alternate"></link><published>2014-08-23T00:00:00+02:00</published><updated>2014-08-23T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ld30-lets-meet-node54.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
 at the day 1 of LD30. It's added here so I can keep everything related to
 a gamedev in a single place.&lt;/p&gt;
 

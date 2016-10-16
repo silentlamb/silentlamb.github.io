@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/misc.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2015-09-12T00:00:00+02:00</updated><entry><title>Introduction to the blog</title><link href="http://blog.marcinglinski.pl/2015-09/introduction-to-the-blog.html" rel="alternate"></link><updated>2015-09-12T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</id><summary type="html">&lt;p&gt;The blog is finally setup and running. Under the hood the software I use
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/misc.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2015-09-12T00:00:00+02:00</updated><entry><title>Introduction to the blog</title><link href="http://blog.marcinglinski.pl/2015-09/introduction-to-the-blog.html" rel="alternate"></link><published>2015-09-12T00:00:00+02:00</published><updated>2015-09-12T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</id><summary type="html">&lt;p&gt;The blog is finally setup and running. Under the hood the software I use
 is &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; to generate static HTML files from articles written in
 Markdown/RST format. Everything is hosted as a &lt;a href="https://pages.github.com"&gt;Github pages feature&lt;/a&gt;
 configured to support my custom domain. Time for introduction!&lt;/p&gt;
@@ -40,7 +40,7 @@ place.  I don't want them to disappear in the vastness of web archives as they
 are part of me.  Altough I don't draw them anymore as my current interests are
 pixel and low poly arts, the amount of arts that I created is kind of big and I
 want them to be here.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;                                    / _,
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                                    / _,
                                ,_  M\M&amp;quot;_,,
                                 `&amp;quot;MMMMMm._
                                `/MMMMMMP^^&amp;quot;,
