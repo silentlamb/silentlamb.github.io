@@ -263,3 +263,7 @@ footer
     background: #FF00ff !important;
     color: #333;
 }
+
+.disabled {
+    pointer-events: none;
+}
