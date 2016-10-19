@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/all.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-01-01T00:00:00+01:00</updated><entry><title>New Beginning­— Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record 
-increased gainings. Side walks are full of wannabe runners and tabaco 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/all.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-10-19T00:00:00+02:00</updated><entry><title>New Beginning­— Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record 
+increased gainings. Side walks are full of wannabe runners and tobacco 
 industry records decline in profits.&lt;/p&gt;
 &lt;p&gt;I've decided to join the New Year's train and start something new. There are 
 stories that happen to start with "Once upon a time". There a stories that 
@@ -13,14 +13,87 @@ begins with "So, you wanna hear another story, eh?". My story starts with...&lt;
 &lt;p&gt;This single person hobby project called "Melted Vertex Games" with a
 bit of luck and dozen of determination will hopefully create new chapter 
 in my life. You know how they say, "Start small, dream big". And that's 
-what I'm going to do.&lt;/p&gt;</summary><category term="mvg"></category><category term="art"></category></entry><entry><title>LD33: Ghosty Game post mortem</title><link href="http://blog.marcinglinski.pl/2015-09/ld33-ghosty-game-post-mortem.html" rel="alternate"></link><published>2015-09-19T00:00:00+02:00</published><updated>2015-09-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-19:2015-09/ld33-ghosty-game-post-mortem.html</id><summary type="html">&lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
+what I'm going to do.&lt;/p&gt;
+&lt;h4&gt;Update: 2016-10-19&lt;/h4&gt;
+&lt;p&gt;The project is not abandoned, although not much is happening. The work is 
+being done at the very slow pace. The main reason is that my main job requires
+for me to learn a lot of new technology as well as refresh some forgotten knowledge.&lt;/p&gt;
+&lt;p&gt;The MVE game engine I've been using for Ludum Dare compo is still under development.
+I've decided to drop SFML library as it's been harder and harder for me to implement
+new features that use a bit of raw OpenGL. Since the MVE engine has been started as 
+a place for me to learn gamedev engine designs and inner working, I feel like dropping 
+SFML in a favor of raw OpenGL was a good idea.&lt;/p&gt;
+&lt;p&gt;I've been learning and refreshing a lot of DSP related topics and I hope to use
+the knowledge in a game development field as soon as time permits.&lt;/p&gt;</summary><category term="mvg"></category><category term="art"></category></entry><entry><title>Ludum Dare 33 - Ghosty Game</title><link href="http://blog.marcinglinski.pl/2015-09/ludum-dare-33-ghosty-game.html" rel="alternate"></link><published>2015-09-19T00:00:00+02:00</published><updated>2015-09-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-19:2015-09/ludum-dare-33-ghosty-game.html</id><summary type="html">&lt;p&gt;This article is an imported set of post from Ludum Dare website in which 
+I'm describing my participation in Ludum Dare 33. It consists of 3 
+parts: Day 0 - before joining the event, Day 1 - thoughts at the end of 
+first day and final thoughts to summarize whole event. &lt;/p&gt;
+
+
+&lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Posted: 2015-08-06&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello fellow gamedevs!&lt;/p&gt;
+&lt;p&gt;My first time at Ludum Dare was a great experience and I really wanted to participate
+again. And I’ve got opportunity to join this time!&lt;/p&gt;
+&lt;p&gt;My goals for this edition are quite similar to the &lt;a href="http://blog.marcinglinski.pl/2014-08/ludum-dare-30-node-54.html"&gt;previous ones&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Finish a playable game&lt;/strong&gt;. That’s everyone’s main goal, so not much to say.&lt;/li&gt;
+&lt;li&gt;This time I want to &lt;strong&gt;focus on introducing concept of the game&lt;/strong&gt; to the player,
+  so he or she won’t get lost. Last time it was a total failure. Players didn’t
+  know what was the goal of the game, nor how to control the avatar, nor what are
+  rules to the game.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep visual simple, but of decent quality&lt;/strong&gt;. If the topic is right I might
+  even try to use a really simple shapes (circles and rectangles). The main
+  focus is going to be on a good mix of colors, and little things like gradients
+  and shadows. Last time I spent too much time creating unused animation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More fx sounds&lt;/strong&gt;. Sound is a great tool for the feedback and to make the game
+  feel alive. I hope I won’t mess the API this time and use the valid volume
+  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;. Any music. I’m not a musican at all, but since the beginning of this
+  year I’ve been working in the audio/DSP related project. If it’s possible
+  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
+  tool of use is going to be Milky Tracker, unless I find something easy to use.&lt;/li&gt;
+&lt;li&gt;I have no idea what theme is going to win, but if possible I’m gonna try to
+  &lt;strong&gt;make something fast-paced&lt;/strong&gt;. Last time I tried to make clone of “Ugh!” game.
+  This time again I’m gonna stick to already explored concepts. It’s still to
+  early to me to create anything original, I’d rather focus my work in other
+  fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
+C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
+&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;
+&lt;h3&gt;Day 1&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Posted: 2015-08-22&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day&amp;nbsp;1 is
+almost done so let me summarize my work today:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finished&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Testing custom engine for the first time; not working perfectly, but not as
+  bad as the last time.&lt;/li&gt;
+&lt;li&gt;Main character animations and some static assets&lt;/li&gt;
+&lt;li&gt;Integration with Box2D. Tons of stupid issues to resolve. Good lesson.&lt;/li&gt;
+&lt;li&gt;Loading level from .png files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;TODO for Day 2&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enemies: path finding, very simple AI&lt;/li&gt;
+&lt;li&gt;More gfx/sfx assets&lt;/li&gt;
+&lt;li&gt;Rendering optimizations and fixes&lt;/li&gt;
+&lt;li&gt;Juicing the game up (screen shakes, explosions!)&lt;/li&gt;
+&lt;li&gt;Design more levels and simple plot structure&lt;/li&gt;
+&lt;li&gt;Come up with the title...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
+assets again.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;
+&lt;h3&gt;Post mortem&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Posted: 2015-09-19&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
 &lt;p&gt;My main goal — making the game in time for the &lt;em&gt;Compo&lt;/em&gt; — has not been acomplished.
 I was far from having anything ready to be send and the deadline has been reached.
 After getting some sleep, rest and spending time with family I decided not to
 give up completely and try to drive the game to the finish line called &lt;em&gt;Jam&lt;/em&gt;.&lt;/p&gt;
-
-
-&lt;p&gt;For these readers who have no clue what's the difference between &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; Compo and Jam, 
+&lt;p&gt;For these readers who have no clue what's the difference between LD Compo and Jam, 
 in short:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Time to post entry to the compo is 48h, while for Jam it's 72h&lt;/li&gt;
@@ -31,11 +104,8 @@ in short:&lt;/p&gt;
   allowed to use already existing assets.&lt;/li&gt;
 &lt;li&gt;Compo is very strict and limiting, while Jam is more careless&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Results&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ​ 
-​
-
-  .---------------.-----------------.-----------------.
+&lt;h4&gt;Results&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  .---------------.-----------------.-----------------.
   |               |      LD 30      |       LD 33     |
   |  Category     |                 |                 |
   |               |  Score |  Place |  Score |  Place |
@@ -52,40 +122,36 @@ in short:&lt;/p&gt;
                                                                   \/_\/
                                                                    |=|
                                                                    `-&amp;#39; fsc
-
-    ​ 
-    ​
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;The results are generally better. Keep also in mind that in &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; Jam you compete
+&lt;p&gt;The results are generally better. Keep also in mind that in LD Jam you compete
 against teams of people, not the lone designers; it's much harder to get better
 score due to this single fact. I was really suprised that my overall score is
 that high as the game was far from being finished.&lt;/p&gt;
 &lt;p&gt;In the other hand, I've been slowly working on enhancing my graphics and audio
 skills and it seems like some progress has been made.&lt;/p&gt;
-&lt;h3&gt;Timelapse&lt;/h3&gt;
+&lt;h4&gt;Timelapse&lt;/h4&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8HihdhlJQYA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3&gt;What went right&lt;/h3&gt;
-&lt;p&gt;The goals were described in the &lt;a href="http://blog.marcinglinski.pl/2015-08/ld33-im-in-for-the-2nd-time.html"&gt;introduction article&lt;/a&gt;. &lt;/p&gt;
-&lt;h4&gt;Visuals&lt;/h4&gt;
+&lt;h4&gt;What went right&lt;/h4&gt;
+&lt;h5&gt;Visuals&lt;/h5&gt;
 &lt;p&gt;I'm really happy that my pixel–art skills got improved. I was able to create
 some animations and (for a beginner) decent looking characters. However, there is
 still much more room for improvements. My next goal is to have enough skills
 to produce content of similar quality to the &lt;a href="http://oryxdesignlab.com/ultimatefantasy"&gt;Ultimate Fantasy tileset&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Working on the assets" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0007-pyxel.jpg" /&gt;
 &lt;em class="center-block text-center"&gt;Working on the assets&lt;/em&gt;&lt;/p&gt;
-&lt;h4&gt;Audio&lt;/h4&gt;
+&lt;h5&gt;Audio&lt;/h5&gt;
 &lt;p&gt;Music. I've finally made it! The tool of use was Bosca Ceoil. I was using it for
 the first time. Bosca Ceoil is an awesome tool to create simple tunes using tons 
 of different samples. I think it's good idea to stick to this program for a now
 and focus on something else. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Bosca Ceoil music editor" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0006-music.jpg" /&gt;
 &lt;em class="center-block text-center"&gt;Bosca Ceoil music editor&lt;/em&gt;&lt;/p&gt;
-&lt;h4&gt;Entity Component System&lt;/h4&gt;
-&lt;p&gt;Before the &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; I was working on my custom engine, based on &lt;abbr title="Entity Component System"&gt;ECS&lt;/abbr&gt; architecture.
-I had no actual game to test if it works properly, so &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; was a first test.
+&lt;h5&gt;Entity Component System&lt;/h5&gt;
+&lt;p&gt;Before the LD I was working on my custom engine, based on &lt;abbr title="Entity Component System"&gt;ECS&lt;/abbr&gt; architecture.
+I had no actual game to test if it works properly, so LD was a first test.
 There were nasty bugs that took some time from my developement, mostly related
 to initialization as I was reusing preallocated memory for component data,
 but overall I'm really happy with the architecture. If you start thinking
@@ -94,8 +160,8 @@ If you got your rendering, physics and audio systems already prepared you
 might focus on actual gameplay because attaching proper components will 
 make everything magically work! This is the reason why people use engines
 like Unity. Few hours later you got working prototype.&lt;/p&gt;
-&lt;h3&gt;What went wrong&lt;/h3&gt;
-&lt;h4&gt;Deadline missed&lt;/h4&gt;
+&lt;h4&gt;What went left&lt;/h4&gt;
+&lt;h5&gt;Deadline missed&lt;/h5&gt;
 &lt;p&gt;I was unable to deliver in time an entry for compo. I've lost over 6 hours of 
 development due to a basic indexing issue which shouldn't happen to any 
 software engineer. I didn't have any physic system ready to be used so I had
@@ -103,7 +169,7 @@ to make one by myself. This combined with not tested &lt;abbr title="Entity Comp
 in too much time spent in a debugger trying to figure out what's going on.
 Lesson (I hope) learnt and (I hope) next time I'll focus more on actual
 gameplay.&lt;/p&gt;
-&lt;h4&gt;Lack of actual gameplay&lt;/h4&gt;
+&lt;h5&gt;Lack of actual gameplay&lt;/h5&gt;
 &lt;p&gt;This is a big loss. As I've lost too much time fighting windmills, 
 only single planned gameplay feature has been implemented. My plan was to
 create a stealth evasion game with static obstacles, moving enemies with 
@@ -111,17 +177,17 @@ their cone of view, sound alarm system, bullet hell and simple logic
 puzzles (push this button to activate that). To me this game is far from
 being playable. No idea where the 3.0 overall rating came from, but it's
 kind of intresting.&lt;/p&gt;
-&lt;h4&gt;Lesson to learn&lt;/h4&gt;
+&lt;h5&gt;Lesson to learn&lt;/h5&gt;
 &lt;p&gt;Just one lesson but the most important one: &lt;strong&gt;be focused on all the 
 little things&lt;/strong&gt; in a software development process…&lt;/p&gt;
 &lt;p&gt;… such as table indices or early function exits, as they may screw your
 mind when you try to debug complex logics. If you name variables, even
-for side projects such as &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt; entries, use good naming convention.
+for side projects such as LD entries, use good naming convention.
 I've spend over 6h because I couldn't find the mistake in 2d → 1d array 
 index conversion; I've used wrong variable to determine size of the 
 row (tile's width in pixels instead of number of tiles in
 a row). It could have been avoided if I hadn't had variables named &lt;code&gt;TW&lt;/code&gt;
-(Tile Width) and &lt;code&gt;WW&lt;/code&gt; (World Width). When participating in &lt;abbr title="Ludum Dare"&gt;LD&lt;/abbr&gt;, you 
+(Tile Width) and &lt;code&gt;WW&lt;/code&gt; (World Width). When participating in LD, you 
 should have proffesional mindset too. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Index bug when setting up VertexArray" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0008-indexbug.jpg" /&gt;
 &lt;em class="center-block text-center"&gt;Debugging index bug described above&lt;/em&gt;&lt;/p&gt;
@@ -138,13 +204,13 @@ the heck just happened. &lt;/p&gt;
 For release mode they will be removed. Which leads to the third bug:
 putting logic in a preprocessor macro which happen to be removed (changed
 to &lt;code&gt;do {} while(0)&lt;/code&gt;) in the release mode. My only explanation is a tiredness.&lt;/p&gt;
-&lt;h4&gt;Plans for the future&lt;/h4&gt;
-&lt;p&gt;Next Ludum Dare in 3 months so there's plenty of time for
-self–development and engine improvements. Right now I'm trying to
-make my new game project to get off the ground. As for the programming 
-tasks, I've made the list of things to be done:&lt;/p&gt;
+&lt;h5&gt;Plans for the future&lt;/h5&gt;
+&lt;p&gt;Next Ludum Dare in 3 months so there's plenty of time for self–development 
+and engine improvements. Right now I'm trying to make my new game project 
+to get off the ground. As for the programming tasks, I've made the list of 
+things to be done:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add more features to the &lt;a href="https://github.com/silentlamb/mve-engine"&gt;mve-engine&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Add more features to the mve-engine&lt;ul&gt;
 &lt;li&gt;Cinematics&lt;/li&gt;
 &lt;li&gt;Animators&lt;/li&gt;
 &lt;li&gt;Shaders and processing effects (optional)&lt;/li&gt;
@@ -161,7 +227,7 @@ tasks, I've made the list of things to be done:&lt;/p&gt;
 &lt;li&gt;Implement algorithm to reduce unnecessary number of rigid bodies when loading a map&lt;/li&gt;
 &lt;li&gt;Prepare for LD34 (12-14 Dec, 2015)&lt;/li&gt;
 &lt;li&gt;Continue improving on pixel arts&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="post-mortem"></category><category term="ludum-dare"></category></entry><entry><title>Introduction to the blog</title><link href="http://blog.marcinglinski.pl/2015-09/introduction-to-the-blog.html" rel="alternate"></link><published>2015-09-12T00:00:00+02:00</published><updated>2015-09-12T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</id><summary type="html">&lt;p&gt;The blog is finally setup and running. Under the hood the software I use
+&lt;/ul&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>Introduction to the blog</title><link href="http://blog.marcinglinski.pl/2015-09/introduction-to-the-blog.html" rel="alternate"></link><published>2015-09-12T00:00:00+02:00</published><updated>2015-09-12T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-09-12:2015-09/introduction-to-the-blog.html</id><summary type="html">&lt;p&gt;The blog is finally setup and running. Under the hood the software I use
 is &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; to generate static HTML files from articles written in
 Markdown/RST format. Everything is hosted as a &lt;a href="https://pages.github.com"&gt;Github pages feature&lt;/a&gt;
 configured to support my custom domain. Time for introduction!&lt;/p&gt;
@@ -230,78 +296,43 @@ want them to be here.&lt;/p&gt;
                        `---&amp;#39;&amp;quot;mMMMMMMMMm,_      `-----&amp;#39;        `&amp;quot;&amp;quot;
                             `&amp;quot; &amp;quot;^`^MMMP^^mm,
                                                           fsc
-&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>LD33: Day 1</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-day-1.html" rel="alternate"></link><published>2015-08-22T00:00:00+02:00</published><updated>2015-08-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-22:2015-08/ld33-day-1.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
-at the day 1 of LD33 event. It's added here so I can keep everything related
-to a gamedev in a single place.&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Ludum Dare 30 -- Node 54</title><link href="http://blog.marcinglinski.pl/2014-08/ludum-dare-30-node-54.html" rel="alternate"></link><published>2016-10-19T00:00:00+02:00</published><updated>2016-10-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ludum-dare-30-node-54.html</id><summary type="html">&lt;p&gt;This article is an imported set of post describing my participation in Ludum Dare 30.
+First part is a summary of Day 1, the second one describes final thoughts.&lt;/p&gt;
 
 
-&lt;h3&gt;Day 1&lt;/h3&gt;
-&lt;p&gt;Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day&amp;nbsp;1 is
-almost done so let me summarize my work today:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Finished&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3&gt;Day 1: Let's meet Node54&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;introduction not imported&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;But I love game development. I read tons of stuff. I try to think about
+various algorithms or design patterns that might be used to resolve some
+problem that bugs me. The problem is, I haven't finish anything yet. All
+of my game development stops on the engine.&lt;/p&gt;
+&lt;p&gt;So one day, looking at the calendar I saw that my wife with son are
+going out and they won't be at home for the whole weekend. And the great
+thing about it is that the same weekend belongs to LD30! So I thought to
+myself: why not try to sign in? And here I am.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Main screen of Node54" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0002-title.png" /&gt;&lt;/p&gt;
+&lt;p&gt;So after 10h of design and development (Inkscape, GIMP, PyxelEdit, VS
+C++ &amp;amp; SFML lib) I've achieved the following state:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Testing custom engine for the first time; not working perfectly, but not as
-  bad as the last time.&lt;/li&gt;
-&lt;li&gt;Main character animations and some static assets&lt;/li&gt;
-&lt;li&gt;Integration with Box2D. Tons of stupid issues to resolve. Good lesson.&lt;/li&gt;
-&lt;li&gt;Loading level from .png files.&lt;/li&gt;
+&lt;li&gt;Simple rendering engine using stack states is done&lt;/li&gt;
+&lt;li&gt;Resources management (textures, fonts) is finished&lt;/li&gt;
+&lt;li&gt;Level loader that uses .png files as its input is finished&lt;/li&gt;
+&lt;li&gt;Level mechanics&lt;/li&gt;
+&lt;li&gt;Simple assets are finished: menu background, game background and&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;TODO for Day 2&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Still to be done:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Enemies: path finding, very simple AI&lt;/li&gt;
-&lt;li&gt;More gfx/sfx assets&lt;/li&gt;
-&lt;li&gt;Rendering optimizations and fixes&lt;/li&gt;
-&lt;li&gt;Juicing the game up (screen shakes, explosions!)&lt;/li&gt;
-&lt;li&gt;Design more levels and simple plot structure&lt;/li&gt;
-&lt;li&gt;Come up with the title...&lt;/li&gt;
+&lt;li&gt;Collision detection, this is main mechanics&lt;/li&gt;
+&lt;li&gt;Player movement based on gravity&lt;/li&gt;
+&lt;li&gt;Audio effects &amp;amp; Music (there's gonna be no music probably as I don't 
+  know much about this topic)&lt;/li&gt;
+&lt;li&gt;Sprite polishing&lt;/li&gt;
+&lt;li&gt;Better input handling: Joystick support + rebindable keys&lt;/li&gt;
+&lt;li&gt;Maybe (big maybe) PCG-ed levels&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
-assets again.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD33: I’m in for the 2nd time</title><link href="http://blog.marcinglinski.pl/2015-08/ld33-im-in-for-the-2nd-time.html" rel="alternate"></link><published>2015-08-06T00:00:00+02:00</published><updated>2015-08-06T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2015-08-06:2015-08/ld33-im-in-for-the-2nd-time.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
-at the day 1 of LD30. It's added here so I can keep everything related to
-a gamedev in a single place.&lt;/p&gt;
-
-
-&lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
-&lt;p&gt;Hello fellow gamedevs!&lt;/p&gt;
-&lt;p&gt;My first time (LD30) was a great experience and I really wanted to participate
-again. And I’ve got opportunity to join this time!&lt;/p&gt;
-&lt;p&gt;My goals for this LD are quite similar to the &lt;a href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html"&gt;previous ones&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Finish a playable game&lt;/strong&gt;. That’s everyone’s main goal, so not much to say.&lt;/li&gt;
-&lt;li&gt;This time I want to &lt;strong&gt;focus on introducing concept of the game&lt;/strong&gt; to the player,
-  so he or she won’t get lost. Last time it was a total failure. Players didn’t
-  know what was the goal of the game, nor how to control the avatar, nor what are
-  rules to the game.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Keep visual simple, but of decent quality&lt;/strong&gt;. If the topic is right I might
-  even try to use a really simple shapes (circles and rectangles). The main
-  focus is going to be on a good mix of colors, and little things like gradients
-  and shadows. Last time I spent too much time creating unused animation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;More fx sounds&lt;/strong&gt;. Sound is a great tool for the feedback and to make the game
-  feel alive. I hope I won’t mess the API this time and use the valid volume
-  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;. Any music. I’m not a musican at all, but since the beginning of this
-  year I’ve been working in the audio/DSP related project. If it’s possible
-  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
-  tool of use is going to be Milky Tracker, unless I find something easy to use.&lt;/li&gt;
-&lt;li&gt;I have no idea what theme is going to win, but if possible I’m gonna try to
-  &lt;strong&gt;make something fast-paced&lt;/strong&gt;. Last time I tried to make clone of “Ugh!” game.
-  This time again I’m gonna stick to already explored concepts. It’s still to
-  early to me to create anything original, I’d rather focus my work in other
-  fields.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I’ll stick to the tools I know well, so once again game is going to be done in
-C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
-&lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>LD30: Node54 - final thoughts</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-node54-final-thoughts.html" rel="alternate"></link><published>2014-08-30T00:00:00+02:00</published><updated>2014-08-30T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-30:2014-08/ld30-node54-final-thoughts.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
-as a post mortem of my LD30 entry. It's added here so I can keep everything 
-related to a gamedev in a single place.&lt;/p&gt;
-
-
-&lt;h3&gt;Node54 - final thoughts&lt;/h3&gt;
-&lt;p&gt;In the &lt;a href="http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html"&gt;previous post&lt;/a&gt; published during competition, I've described my background
-and reasons to participate in Ludum Dare. This time I'd like to talk about
-conclusions that came to my mind after finishing LD30 entry and receiving
-feedback from various people.&lt;/p&gt;
+&lt;h3&gt;Day 2: Final thoughts&lt;/h3&gt;
+&lt;p&gt;In this part of an article I'd like to talk about conclusions that came to my 
+mind after finishing LD30 entry and receiving feedback from various people.&lt;/p&gt;
 &lt;h4&gt;My goals&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Finish a game. This could be the single goal because this is the main reason 
@@ -408,46 +439,4 @@ started to drawing some animations (explosion which is present in the assets
 folder) but it only took some time and didn't make it to the final game. There
 is no screen shake when player dies. There are no particles when the player
 starts moving. This little things that make every game look polished.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tilesets from the game" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0004-atlas.png" /&gt;&lt;/p&gt;
-&lt;h4&gt;What next?&lt;/h4&gt;
-&lt;p&gt;LD30 entry is finished so now it's plenty of time to resolve every issues and
-implement every feature I wanted. To make this game look the way I want it to
-look. I'm going to start a project devlog thread on TigSource forums if you are
-interested. If you want to give the game a try, here's the &lt;a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&amp;amp;uid=40102"&gt;entry page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;edit [2015-09-19]&lt;/em&gt;: After few minor improvements (audio and visual 
-alarm when player's speed is too high, fixed sticking to walls bug) the
-project got dumped in order to work on different things.&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category><category term="post-mortem"></category></entry><entry><title>LD30: Let's meet Node54</title><link href="http://blog.marcinglinski.pl/2014-08/ld30-lets-meet-node54.html" rel="alternate"></link><published>2014-08-23T00:00:00+02:00</published><updated>2014-08-23T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ld30-lets-meet-node54.html</id><summary type="html">&lt;p&gt;This article is an imported post from Ludum Dare website. I've posted it
-at the day 1 of LD30. It's added here so I can keep everything related to
-a gamedev in a single place.&lt;/p&gt;
-
-
-&lt;h3&gt;Let's meet Node54&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;skipped introduction&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But I love game development. I read tons of stuff. I try to think about
-various algorithms or design patterns that might be used to resolve some
-problem that bugs me. The problem is, I haven't finish anything yet. All
-of my game development stops on the engine.&lt;/p&gt;
-&lt;p&gt;So one day, looking at the calendar I saw that my wife with son are
-going out and they won't be at home for the whole weekend. And the great
-thing about it is that the same weekend belongs to LD30! So I thought to
-myself: why not try to sign in? And here I am.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Main screen of Node54" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0002-title.png" /&gt;&lt;/p&gt;
-&lt;p&gt;So after 10h of design and development (Inkscape, GIMP, PyxelEdit, VS
-C++ &amp;amp; SFML lib) I've achieved the following state:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Simple rendering engine using stack states is done&lt;/li&gt;
-&lt;li&gt;Resources management (textures, fonts) is finished&lt;/li&gt;
-&lt;li&gt;Level loader that uses .png files as its input is finished&lt;/li&gt;
-&lt;li&gt;Level mechanics&lt;/li&gt;
-&lt;li&gt;Simple assets are finished: menu background, game background and&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Still to be done:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Collision detection, this is main mechanics&lt;/li&gt;
-&lt;li&gt;Player movement based on gravity&lt;/li&gt;
-&lt;li&gt;Audio effects &amp;amp; Music (there's gonna be no music probably as I don't 
-  know much about this topic)&lt;/li&gt;
-&lt;li&gt;Sprite polishing&lt;/li&gt;
-&lt;li&gt;Better input handling: Joystick support + rebindable keys&lt;/li&gt;
-&lt;li&gt;Maybe (big maybe) PCG-ed levels&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Tilesets from the game" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0004-atlas.png" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>

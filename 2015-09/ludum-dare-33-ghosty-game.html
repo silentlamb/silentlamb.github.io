@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Marcin Gliński">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<title>Ludum Dare 33 - Ghosty Game | Marcin Gliński</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://blog.marcinglinski.pl/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="http://blog.marcinglinski.pl/css/bootstrap-theme.min.css" type="text/css">
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="http://blog.marcinglinski.pl/css/github.css" type="text/css">
+	<link rel="stylesheet" href="http://blog.marcinglinski.pl/css/style.css" type="text/css">
+
+</head>
+
+<body>
+<div class="container index">
+    <div class="container header">
+        <nav>
+	        <ul class="nav nav-pills pull-right">
+		        <li><a href="http://blog.marcinglinski.pl/" title="home"><i class="fa fa-home"></i></a></li>
+
+                <li><a href="#not-implemented-yet" title="archives"><i class="fa fa-archive"></i></a></li>
+                <li><a href="http://twitter.com/loginavailable" title="contact"><i class="fa fa-envelope"></i></a></li>
+
+	        </ul>
+        </nav>	    <hgroup class="brand">
+		    <h3><a href="http://blog.marcinglinski.pl">Marcin Gliński</a></h3>
+		    <h4>game design and development, arts (ascii, pixel, low-poly), indie gaming</h4>
+	    </hgroup>
+    </div><!-- header -->
+
+<div class="container single-article">
+	<article>
+		<header>
+			<h2>Ludum Dare 33 - Ghosty Game</h2>
+			<p class="pubdate">Published: <time datetime="" title="2015-09-19T00:00:00+02:00" pubdate>19 September, 2015</time>
+		    <ul class="list-unstyled labels">
+			    <li class="label label-default">gamedev</li>
+			    <li class="label label-success">imported</li>
+			    <li class="label label-success">ludum-dare</li>
+		    </ul></p>
+	    </header>
+
+        <p>This article is an imported set of post from Ludum Dare website in which 
+I'm describing my participation in Ludum Dare 33. It consists of 3 
+parts: Day 0 - before joining the event, Day 1 - thoughts at the end of 
+first day and final thoughts to summarize whole event. </p>
+
+
+<h3>I'm in for the 2nd time</h3>
+<p><em>Posted: 2015-08-06</em></p>
+<p>Hello fellow gamedevs!</p>
+<p>My first time at Ludum Dare was a great experience and I really wanted to participate
+again. And I’ve got opportunity to join this time!</p>
+<p>My goals for this edition are quite similar to the <a href="http://blog.marcinglinski.pl/2014-08/ludum-dare-30-node-54.html">previous ones</a>:</p>
+<ul>
+<li><strong>Finish a playable game</strong>. That’s everyone’s main goal, so not much to say.</li>
+<li>This time I want to <strong>focus on introducing concept of the game</strong> to the player,
+  so he or she won’t get lost. Last time it was a total failure. Players didn’t
+  know what was the goal of the game, nor how to control the avatar, nor what are
+  rules to the game.</li>
+<li><strong>Keep visual simple, but of decent quality</strong>. If the topic is right I might
+  even try to use a really simple shapes (circles and rectangles). The main
+  focus is going to be on a good mix of colors, and little things like gradients
+  and shadows. Last time I spent too much time creating unused animation.</li>
+<li><strong>More fx sounds</strong>. Sound is a great tool for the feedback and to make the game
+  feel alive. I hope I won’t mess the API this time and use the valid volume
+  ranges (0-100 instead of 0-1). My tool of use: probably sfxer.</li>
+<li><strong>Music</strong>. Any music. I’m not a musican at all, but since the beginning of this
+  year I’ve been working in the audio/DSP related project. If it’s possible
+  I’ll borrow MIDI keyboard from my company for the weekend to motivate me. The
+  tool of use is going to be Milky Tracker, unless I find something easy to use.</li>
+<li>I have no idea what theme is going to win, but if possible I’m gonna try to
+  <strong>make something fast-paced</strong>. Last time I tried to make clone of “Ugh!” game.
+  This time again I’m gonna stick to already explored concepts. It’s still to
+  early to me to create anything original, I’d rather focus my work in other
+  fields.</li>
+</ul>
+<p>I’ll stick to the tools I know well, so once again game is going to be done in
+C++11 and SFML with Box2D or Lua, depending on the theme.</p>
+<p>I wish you all good luck at the LD33!</p>
+<h3>Day 1</h3>
+<p><em>Posted: 2015-08-22</em></p>
+<p>Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day&nbsp;1 is
+almost done so let me summarize my work today:</p>
+<p><strong>Finished</strong>:</p>
+<ul>
+<li>Testing custom engine for the first time; not working perfectly, but not as
+  bad as the last time.</li>
+<li>Main character animations and some static assets</li>
+<li>Integration with Box2D. Tons of stupid issues to resolve. Good lesson.</li>
+<li>Loading level from .png files.</li>
+</ul>
+<p><strong>TODO for Day 2</strong>:</p>
+<ul>
+<li>Enemies: path finding, very simple AI</li>
+<li>More gfx/sfx assets</li>
+<li>Rendering optimizations and fixes</li>
+<li>Juicing the game up (screen shakes, explosions!)</li>
+<li>Design more levels and simple plot structure</li>
+<li>Come up with the title...</li>
+</ul>
+<p>Not sure what's going to be dropped. I guess it's the music and more polished
+assets again.</p>
+<p><img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /></p>
+<h3>Post mortem</h3>
+<p><em>Posted: 2015-09-19</em></p>
+<p>Results of Ludum Dare 33 got already published so it's time for postmortem.</p>
+<p>My main goal — making the game in time for the <em>Compo</em> — has not been acomplished.
+I was far from having anything ready to be send and the deadline has been reached.
+After getting some sleep, rest and spending time with family I decided not to
+give up completely and try to drive the game to the finish line called <em>Jam</em>.</p>
+<p>For these readers who have no clue what's the difference between LD Compo and Jam, 
+in short:</p>
+<ul>
+<li>Time to post entry to the compo is 48h, while for Jam it's 72h</li>
+<li>You are only allowed to work solo in the Compo, but for Jam you might work in a 
+  team made of programmers, gfx artists, musicans, etc.</li>
+<li>For Compo you must create all in–game assets (graphics, audio) by yourself and 
+  all of these need to be made during the 48h of the Compo. For Jam you are
+  allowed to use already existing assets.</li>
+<li>Compo is very strict and limiting, while Jam is more careless</li>
+</ul>
+<h4>Results</h4>
+<div class="highlight"><pre><span></span>  .---------------.-----------------.-----------------.
+  |               |      LD 30      |       LD 33     |
+  |  Category     |                 |                 |
+  |               |  Score |  Place |  Score |  Place |
+  +---------------+------- +--------+--------+--------+
+  | Overall       |  2.79  |   950  |  3.00  |   716  |
+  | Audio         |  2.19  |   816  |  2.41  |   623  |      Good job, minion!
+  | Fun           |  2.85  |   730  |  3.11  |   485  |
+  | Graphics      |  2.85  |   727  |  2.94  |   734  |           ,
+  | Humor         |  2.67  |   354  |  ----  |   ---  |           |
+  | Innovation    |  2.44  |  1022  |  2.53  |   873  |        ]  |.-._
+  | Mood          |  2.75  |   766  |  ----  |   ---  |         \|&quot;(0)&quot;| _]
+  | Theme         |  2.33  |  1056  |  2.31  |  1049  |         `|=\#/=|\/
+  `---------------&#39;--------&#39;--------&#39;--------&#39;--------&#39;          :  _  :
+                                                                  \/_\/
+                                                                   |=|
+                                                                   `-&#39; fsc
+</pre></div>
+
+
+<p>The results are generally better. Keep also in mind that in LD Jam you compete
+against teams of people, not the lone designers; it's much harder to get better
+score due to this single fact. I was really suprised that my overall score is
+that high as the game was far from being finished.</p>
+<p>In the other hand, I've been slowly working on enhancing my graphics and audio
+skills and it seems like some progress has been made.</p>
+<h4>Timelapse</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8HihdhlJQYA" frameborder="0" allowfullscreen></iframe>
+
+<h4>What went right</h4>
+<h5>Visuals</h5>
+<p>I'm really happy that my pixel–art skills got improved. I was able to create
+some animations and (for a beginner) decent looking characters. However, there is
+still much more room for improvements. My next goal is to have enough skills
+to produce content of similar quality to the <a href="http://oryxdesignlab.com/ultimatefantasy">Ultimate Fantasy tileset</a>.</p>
+<p><img alt="Working on the assets" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0007-pyxel.jpg" />
+<em class="center-block text-center">Working on the assets</em></p>
+<h5>Audio</h5>
+<p>Music. I've finally made it! The tool of use was Bosca Ceoil. I was using it for
+the first time. Bosca Ceoil is an awesome tool to create simple tunes using tons 
+of different samples. I think it's good idea to stick to this program for a now
+and focus on something else. </p>
+<p><img alt="Bosca Ceoil music editor" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0006-music.jpg" />
+<em class="center-block text-center">Bosca Ceoil music editor</em></p>
+<h5>Entity Component System</h5>
+<p>Before the LD I was working on my custom engine, based on <abbr title="Entity Component System">ECS</abbr> architecture.
+I had no actual game to test if it works properly, so LD was a first test.
+There were nasty bugs that took some time from my developement, mostly related
+to initialization as I was reusing preallocated memory for component data,
+but overall I'm really happy with the architecture. If you start thinking
+with components and not game objects, everything magically starts working.
+If you got your rendering, physics and audio systems already prepared you 
+might focus on actual gameplay because attaching proper components will 
+make everything magically work! This is the reason why people use engines
+like Unity. Few hours later you got working prototype.</p>
+<h4>What went left</h4>
+<h5>Deadline missed</h5>
+<p>I was unable to deliver in time an entry for compo. I've lost over 6 hours of 
+development due to a basic indexing issue which shouldn't happen to any 
+software engineer. I didn't have any physic system ready to be used so I had
+to make one by myself. This combined with not tested <abbr title="Entity Component System">ECS</abbr>–engine resulted
+in too much time spent in a debugger trying to figure out what's going on.
+Lesson (I hope) learnt and (I hope) next time I'll focus more on actual
+gameplay.</p>
+<h5>Lack of actual gameplay</h5>
+<p>This is a big loss. As I've lost too much time fighting windmills, 
+only single planned gameplay feature has been implemented. My plan was to
+create a stealth evasion game with static obstacles, moving enemies with 
+their cone of view, sound alarm system, bullet hell and simple logic 
+puzzles (push this button to activate that). To me this game is far from
+being playable. No idea where the 3.0 overall rating came from, but it's
+kind of intresting.</p>
+<h5>Lesson to learn</h5>
+<p>Just one lesson but the most important one: <strong>be focused on all the 
+little things</strong> in a software development process…</p>
+<p>… such as table indices or early function exits, as they may screw your
+mind when you try to debug complex logics. If you name variables, even
+for side projects such as LD entries, use good naming convention.
+I've spend over 6h because I couldn't find the mistake in 2d → 1d array 
+index conversion; I've used wrong variable to determine size of the 
+row (tile's width in pixels instead of number of tiles in
+a row). It could have been avoided if I hadn't had variables named <code>TW</code>
+(Tile Width) and <code>WW</code> (World Width). When participating in LD, you 
+should have proffesional mindset too. </p>
+<p><img alt="Index bug when setting up VertexArray" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0008-indexbug.jpg" />
+<em class="center-block text-center">Debugging index bug described above</em></p>
+<p>The second bug, that cost me some time, was a removal of early function
+exit when calculating a direction from velocity vector. Due to 
+refactoring I removed early exit on a vector length check. It resulted
+in division by 0, which for floats results in NaN, which resulted in 
+wrong position of the player's character, which resulted in a camera 
+moved to strange position, which resulted in a whole game state layer not
+being drawn and since I was using state-stack design, the MainMenu state got drawn,
+which resulted in lost hours in a debugger trying to figure out what
+the heck just happened. </p>
+<p>The other lesson from this bug is: <strong>use asserts whenever you can</strong>.
+For release mode they will be removed. Which leads to the third bug:
+putting logic in a preprocessor macro which happen to be removed (changed
+to <code>do {} while(0)</code>) in the release mode. My only explanation is a tiredness.</p>
+<h5>Plans for the future</h5>
+<p>Next Ludum Dare in 3 months so there's plenty of time for self–development 
+and engine improvements. Right now I'm trying to make my new game project 
+to get off the ground. As for the programming tasks, I've made the list of 
+things to be done:</p>
+<ul>
+<li>Add more features to the mve-engine<ul>
+<li>Cinematics</li>
+<li>Animators</li>
+<li>Shaders and processing effects (optional)</li>
+<li>Input rebinding (optional)</li>
+<li>Dynamic audio system (optional)</li>
+</ul>
+</li>
+<li>Prepare level parser to be used<ul>
+<li>Parse image (png) based maps</li>
+<li>Parse PyxelEdit txt format</li>
+<li>Parse Tiled map format (optional)</li>
+</ul>
+</li>
+<li>Implement algorithm to reduce unnecessary number of rigid bodies when loading a map</li>
+<li>Prepare for LD34 (12-14 Dec, 2015)</li>
+<li>Continue improving on pixel arts</li>
+</ul>
+	</article>
+</div><!-- .single-article -->
+
+<h2>Comments</h2>
+<div class="comments container">
+    <div id="disqus_thread"></div>
+
+<script type="text/javascript">
+var disqus_shortname = 'blogmarcin';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+
+<footer class="clearfix">
+	<ul class="nav nav-pills pull-left">
+		<li><a href="https://github.com/silentlamb" title="on github"><i class="fa fa-github"></i></a></li>
+		<li><a href="https://plus.google.com/+MarcinGli%C5%84ski/" title="on google+"><i class="fa fa-google-plus"></i></a></li>
+		<li><a href="https://twitter.com/loginavailable" title="on twitter"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="http://www.linkedin.com/profile/view?id=81395034" title="on linkedin"><i class="fa fa-linkedin"></i></a></li>
+		
+	</ul>
+    <p class="pull-right">2003-2016 &copy; <a href="http://blog.marcinglinski.pl">Marcin Gliński</a>.
+    <span>Powered by <a href="http://getpelican.com/" rel="external">Pelican</a></p>
+</footer>
+
+<script src="http://blog.marcinglinski.pl/js/jquery-3.1.1.min.js"></script>
+<script src="http://blog.marcinglinski.pl/js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>
