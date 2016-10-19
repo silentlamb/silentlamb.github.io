@@ -186,7 +186,7 @@ tasks, I've made the list of things to be done:
 
 [1]: http://oryxdesignlab.com/ultimatefantasy
 [2]: https://github.com/silentlamb/mve-engine
-[3]: {filename}/articles/imported/04_LD33_part1.md
+[3]: {filename}/articles/04_LD33_part1.md
 
 *[ECS]: Entity Component System
 *[LD]: Ludum Dare

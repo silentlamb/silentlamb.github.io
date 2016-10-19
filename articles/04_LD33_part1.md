@@ -4,18 +4,19 @@ Category: gamedev
 Status: published
 Tags: imported, ludum-dare
 
-This article is an imported post from Ludum Dare website. I've posted it
-at the day 1 of LD30. It's added here so I can keep everything related to
-a gamedev in a single place.
-
-<!-- PELICAN_END_SUMMARY -->
-
-### I'm in for the 2nd time
-
 Hello fellow gamedevs!
 
 My first time (LD30) was a great experience and I really wanted to participate
 again. And I’ve got opportunity to join this time!
+
+<!-- PELICAN_END_SUMMARY -->
+
+This article is an imported post from Ludum Dare website. I've posted it
+at the day 1 of LD30. It's added here so I can keep everything related to
+a gamedev in a single place.
+
+
+### I'm in for the 2nd time
 
 My goals for this LD are quite similar to the [previous ones][1]:
 
@@ -47,5 +48,5 @@ C++11 and SFML with Box2D or Lua, depending on the theme.
 I wish you all good luck at the LD33!
 
 
-[1]: {filename}/articles/imported/03_LD30_part2.md
+[1]: {filename}/articles/03_LD30_part2.md
 

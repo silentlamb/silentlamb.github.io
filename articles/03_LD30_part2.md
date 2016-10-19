@@ -159,6 +159,6 @@ interested. If you want to give the game a try, here's the [entry page][2].
 alarm when player's speed is too high, fixed sticking to walls bug) the
 project got dumped in order to work on different things.
 
-[1]: {filename}/articles/imported/02_LD30_part1.md
+[1]: {filename}/articles/02_LD30_part1.md
 [2]: http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=40102
 
