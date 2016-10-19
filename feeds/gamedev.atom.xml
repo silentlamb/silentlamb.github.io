@@ -6,9 +6,8 @@ industry records decline in profits.&lt;/p&gt;
 stories that happen to start with "Once upon a time". There a stories that 
 begins with "So, you wanna hear another story, eh?". My story starts with...&lt;/p&gt;
 
-
 &lt;h3&gt;The logo&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Melted Vertex Games logo" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0009-logo.png" /&gt;
+&lt;p&gt;&lt;img alt="Melted Vertex Games logo" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0009-logo.png"/&gt;
 &lt;em class="center-block text-center"&gt;Melted Vertex Games logo&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This single person hobby project called "Melted Vertex Games" with a
 bit of luck and dozen of determination will hopefully create new chapter 
@@ -28,7 +27,6 @@ the knowledge in a game development field as soon as time permits.&lt;/p&gt;</su
 I'm describing my participation in Ludum Dare 33. It consists of 3 
 parts: Day 0 - before joining the event, Day 1 - thoughts at the end of 
 first day and final thoughts to summarize whole event. &lt;/p&gt;
-
 
 &lt;h3&gt;I'm in for the 2nd time&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Posted: 2015-08-06&lt;/em&gt;&lt;/p&gt;
@@ -64,7 +62,7 @@ C++11 and SFML with Box2D or Lua, depending on the theme.&lt;/p&gt;
 &lt;p&gt;I wish you all good luck at the LD33!&lt;/p&gt;
 &lt;h3&gt;Day 1&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Posted: 2015-08-22&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day&amp;nbsp;1 is
+&lt;p&gt;Hello Ludum Dare-ers! I hope you're enjoying both compo and the theme. Day 1 is
 almost done so let me summarize my work today:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Finished&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -85,7 +83,7 @@ almost done so let me summarize my work today:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Not sure what's going to be dropped. I guess it's the music and more polished
 assets again.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gameplay after day 1" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0005-day1.gif"/&gt;&lt;/p&gt;
 &lt;h3&gt;Post mortem&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Posted: 2015-09-19&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Results of Ludum Dare 33 got already published so it's time for postmortem.&lt;/p&gt;
@@ -116,15 +114,13 @@ in short:&lt;/p&gt;
   | Graphics      |  2.85  |   727  |  2.94  |   734  |           ,
   | Humor         |  2.67  |   354  |  ----  |   ---  |           |
   | Innovation    |  2.44  |  1022  |  2.53  |   873  |        ]  |.-._
-  | Mood          |  2.75  |   766  |  ----  |   ---  |         \|&amp;quot;(0)&amp;quot;| _]
+  | Mood          |  2.75  |   766  |  ----  |   ---  |         \|"(0)"| _]
   | Theme         |  2.33  |  1056  |  2.31  |  1049  |         `|=\#/=|\/
-  `---------------&amp;#39;--------&amp;#39;--------&amp;#39;--------&amp;#39;--------&amp;#39;          :  _  :
+  `---------------'--------'--------'--------'--------'          :  _  :
                                                                   \/_\/
                                                                    |=|
-                                                                   `-&amp;#39; fsc
+                                                                   `-' fsc
 &lt;/pre&gt;&lt;/div&gt;
-
-
 &lt;p&gt;The results are generally better. Keep also in mind that in LD Jam you compete
 against teams of people, not the lone designers; it's much harder to get better
 score due to this single fact. I was really suprised that my overall score is
@@ -132,22 +128,21 @@ that high as the game was far from being finished.&lt;/p&gt;
 &lt;p&gt;In the other hand, I've been slowly working on enhancing my graphics and audio
 skills and it seems like some progress has been made.&lt;/p&gt;
 &lt;h4&gt;Timelapse&lt;/h4&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8HihdhlJQYA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/8HihdhlJQYA" width="560"&gt;&lt;/iframe&gt;
 &lt;h4&gt;What went right&lt;/h4&gt;
 &lt;h5&gt;Visuals&lt;/h5&gt;
 &lt;p&gt;I'm really happy that my pixel–art skills got improved. I was able to create
 some animations and (for a beginner) decent looking characters. However, there is
 still much more room for improvements. My next goal is to have enough skills
 to produce content of similar quality to the &lt;a href="http://oryxdesignlab.com/ultimatefantasy"&gt;Ultimate Fantasy tileset&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Working on the assets" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0007-pyxel.jpg" /&gt;
+&lt;p&gt;&lt;img alt="Working on the assets" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0007-pyxel.jpg"/&gt;
 &lt;em class="center-block text-center"&gt;Working on the assets&lt;/em&gt;&lt;/p&gt;
 &lt;h5&gt;Audio&lt;/h5&gt;
 &lt;p&gt;Music. I've finally made it! The tool of use was Bosca Ceoil. I was using it for
 the first time. Bosca Ceoil is an awesome tool to create simple tunes using tons 
 of different samples. I think it's good idea to stick to this program for a now
 and focus on something else. &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Bosca Ceoil music editor" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0006-music.jpg" /&gt;
+&lt;p&gt;&lt;img alt="Bosca Ceoil music editor" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0006-music.jpg"/&gt;
 &lt;em class="center-block text-center"&gt;Bosca Ceoil music editor&lt;/em&gt;&lt;/p&gt;
 &lt;h5&gt;Entity Component System&lt;/h5&gt;
 &lt;p&gt;Before the LD I was working on my custom engine, based on &lt;abbr title="Entity Component System"&gt;ECS&lt;/abbr&gt; architecture.
@@ -189,7 +184,7 @@ row (tile's width in pixels instead of number of tiles in
 a row). It could have been avoided if I hadn't had variables named &lt;code&gt;TW&lt;/code&gt;
 (Tile Width) and &lt;code&gt;WW&lt;/code&gt; (World Width). When participating in LD, you 
 should have proffesional mindset too. &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Index bug when setting up VertexArray" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0008-indexbug.jpg" /&gt;
+&lt;p&gt;&lt;img alt="Index bug when setting up VertexArray" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0008-indexbug.jpg"/&gt;
 &lt;em class="center-block text-center"&gt;Debugging index bug described above&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The second bug, that cost me some time, was a removal of early function
 exit when calculating a direction from velocity vector. Due to 
@@ -230,7 +225,6 @@ things to be done:&lt;/p&gt;
 &lt;/ul&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry><entry><title>Ludum Dare 30 — Node 54</title><link href="http://blog.marcinglinski.pl/2014-08/ludum-dare-30-node-54.html" rel="alternate"></link><published>2016-10-19T00:00:00+02:00</published><updated>2016-10-19T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2014-08-23:2014-08/ludum-dare-30-node-54.html</id><summary type="html">&lt;p&gt;This article is an imported set of post describing my participation in Ludum Dare 30.
 First part is a summary of Day 1, the second one describes final thoughts.&lt;/p&gt;
 
-
 &lt;h3&gt;Day 1: Let's meet Node54&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;introduction not imported&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;But I love game development. I read tons of stuff. I try to think about
@@ -241,7 +235,7 @@ of my game development stops on the engine.&lt;/p&gt;
 going out and they won't be at home for the whole weekend. And the great
 thing about it is that the same weekend belongs to LD30! So I thought to
 myself: why not try to sign in? And here I am.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Main screen of Node54" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0002-title.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Main screen of Node54" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0002-title.png"/&gt;&lt;/p&gt;
 &lt;p&gt;So after 10h of design and development (Inkscape, GIMP, PyxelEdit, VS
 C++ &amp;amp; SFML lib) I've achieved the following state:&lt;/p&gt;
 &lt;ul&gt;
@@ -281,7 +275,7 @@ mind after finishing LD30 entry and receiving feedback from various people.&lt;/
   reasonable amount of juicyness&lt;/li&gt;
 &lt;li&gt;The game should have possibility to be improved when LD30 is finished&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Node54 with an example level" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0003-level.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Node54 with an example level" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0003-level.png"/&gt;&lt;/p&gt;
 &lt;h4&gt;What went right&lt;/h4&gt;
 &lt;h5&gt;I've finished playable game&lt;/h5&gt;
 &lt;p&gt;I wasn't sure I was good enough to actually finish a game. I've tried thousands
@@ -370,4 +364,4 @@ started to drawing some animations (explosion which is present in the assets
 folder) but it only took some time and didn't make it to the final game. There
 is no screen shake when player dies. There are no particles when the player
 starts moving. This little things that make every game look polished.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tilesets from the game" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0004-atlas.png" /&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Tilesets from the game" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0004-atlas.png"/&gt;&lt;/p&gt;</summary><category term="imported"></category><category term="ludum-dare"></category></entry></feed>

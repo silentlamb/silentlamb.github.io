@@ -52,8 +52,50 @@ to non-existing pages. For example, I've deleted engine project from a github
 and link is valid no more. This post will describe a pelican plugin to 
 notify or/and deal with said issue.</p>
 <!-- PELICAN_END_SUMMARY -->
-
-<p>TODO.</p>
+<h3>Requirements</h3>
+<p>Plugin should work on both Python 2.7 and 3.5. Additionally it requires 
+following libraries:</p>
+<ul>
+<li>BeautifulSoup4</li>
+</ul>
+<h3>Installation</h3>
+<p>Clone repository somewhere (let's assume destination is ./plugins/custom/deadlinks) 
+and edit configuration file:</p>
+<div class="highlight"><pre><span></span><span class="n">PLUGINS_PATH</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="c1"># [...]</span>
+    <span class="s1">'plugins/custom'</span>
+<span class="p">]</span>
+<span class="n">PLUGINS</span> <span class="o">=</span> <span class="p">[</span>
+     <span class="c1"># [...]</span>
+    <span class="s1">'deadlinks'</span>
+<span class="p">]</span>
+</pre></div>
+<h3>Settings</h3>
+<p>To enable dead link checker, set the <code>DEADLINK_VALIDATE</code> option in your Pelican 
+configuration file to <code>True</code>. Additionally following options might be changed:</p>
+<div class="highlight"><pre><span></span><span class="n">DEADLINK_OPTS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'disable_anchors'</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">'add_labels'</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>add_labels</td>
+<td>Add bootstrap's label with error code</td>
+</tr>
+<tr>
+<td>disable_anchors</td>
+<td>Add disabled class to the anchor</td>
+</tr>
+</tbody>
+</table>
 	</article>
 </div><!-- .single-article -->
 

@@ -4,7 +4,6 @@ is &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; to generate static HT
 Markdown/RST format. Everything is hosted as a &lt;a href="https://pages.github.com"&gt;Github pages feature&lt;/a&gt;
 configured to support my custom domain. Time for introduction!&lt;/p&gt;
 
-
 &lt;h3&gt;Who am I&lt;/h3&gt;
 &lt;p&gt;As the header states my name is Marcin Gliński. I'm a software engineer
 working in a mobile company in projects related to Android and audio
@@ -16,7 +15,7 @@ toy-engine, written mostly for learning purposes, to be open sourced.
 If the time is right I participate in &lt;a href="http://ludumdare.com/compo/rules/"&gt;Ludum Dare competition&lt;/a&gt;.
 Having a hard limit of 48h (or 72, depending on the event) to create
 game from scratch, is a very challenging task.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Ghosty game - work in progress" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0001.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ghosty game - work in progress" class="img-thumbnail center-block" src="http://blog.marcinglinski.pl/images/0001.png"/&gt;&lt;/p&gt;
 &lt;h3&gt;Topics of this blog&lt;/h3&gt;
 &lt;p&gt;The main topics of this blog are engine and game development. My pet
 project is a game with top-down perspective mixing various games into
@@ -41,31 +40,31 @@ are part of me.  Altough I don't draw them anymore as my current interests are
 pixel and low poly arts, the amount of arts that I created is kind of big and I
 want them to be here.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                                    / _,
-                               ,_  M\M&amp;quot;_,,
-                                `&amp;quot;MMMMMm._
-                               `/MMMMMMP^^&amp;quot;,
+                               ,_  M\M"_,,
+                                `"MMMMMm._
+                               `/MMMMMMP^^",
                                 MPTMMM`M    `-.
-                              .&amp;#39;&amp;quot;  MMMm  &amp;quot;=, `.`&amp;quot;-.
-                            .&amp;#39;  / S _&amp;quot;^M :Ww.  \   `-.
-                         .-&amp;#39;  .: &amp;quot;.wW\.; :WP^;  `-.   `-.
-                      .-&amp;#39;  .-&amp;#39;/ \ :^WP: ; `--&amp;#39; ;\  `-.   `.
-                   .-&amp;#39;  .-&amp;#39;  /  /; `..&amp;#39;  ;      \`.   `-.  \
-                  /  .-&amp;#39;   .&amp;#39;  /  ;    .-&amp;quot;;`&amp;quot;&amp;quot;&amp;quot;--5..`-.  `-.\
-                 / .&amp;#39;   .-&amp;#39;   /   |  .&amp;#39;    ;       r`) `-.  \\
-                ; /  .-&amp;#39;   .-&amp;#39;    ;_/       ;   _   ;     `. \;
-                |&amp;#39; .&amp;#39;    .&amp;#39;      ( _    _    : `-&amp;#39;  :\      `./
-                `-&amp;#39;     /    .-r-.`Y   `-&amp;#39;   :     /  ;
-                       ; .-7&amp;quot;   `.`7.        |   .&amp;#39;   |
-                       :  &amp;#39;      ; ; `--..__.&amp;#39;-&amp;quot;&amp;quot;/    ;\
-                        \  ,|    | |     ..--&amp;quot;,-&amp;#39;     : ;
-             _     _.7`,_J- ;    : ;,      _,&amp;#39;:      /; ;           _
-           .&amp;#39; `--.`-.`-&amp;#39;_.-| `.  |/ :    .&amp;#39;/ :      ; | |`&amp;quot;.    _.-&amp;quot;.+.
-           :`&amp;quot;-.  `--`&amp;quot;&amp;quot; ,_:   `&amp;#39;7 /.-.   ;  |     /  | :   7&amp;quot;,&amp;#39; .&amp;quot;   |
-           :    \       :   `-. / ;&amp;#39;  /   |  |  `--\  /4   &amp;#39;    /  .&amp;#39; ;
-           `.    ;      \      :`&amp;quot;\ .&amp;lt;    ;  :   _.7 &amp;#39;  `.     /   /.&amp;#39;
-             \   `.___.-&amp;quot;&amp;gt;      ;_/   :---&amp;quot;\ `. &amp;#39;   `.-.. `&amp;quot;--&amp;#39;    /
-              `.___..--&amp;quot;/     _mMMMm,.&amp;#39;     `-.`-.._  )  `&amp;quot;--.   .&amp;#39;
-                       `---&amp;#39;&amp;quot;mMMMMMMMMm,_      `-----&amp;#39;        `&amp;quot;&amp;quot;
-                            `&amp;quot; &amp;quot;^`^MMMP^^mm,
+                              .'"  MMMm  "=, `.`"-.
+                            .'  / S _"^M :Ww.  \   `-.
+                         .-'  .: ".wW\.; :WP^;  `-.   `-.
+                      .-'  .-'/ \ :^WP: ; `--' ;\  `-.   `.
+                   .-'  .-'  /  /; `..'  ;      \`.   `-.  \
+                  /  .-'   .'  /  ;    .-";`"""--5..`-.  `-.\
+                 / .'   .-'   /   |  .'    ;       r`) `-.  \\
+                ; /  .-'   .-'    ;_/       ;   _   ;     `. \;
+                |' .'    .'      ( _    _    : `-'  :\      `./
+                `-'     /    .-r-.`Y   `-'   :     /  ;
+                       ; .-7"   `.`7.        |   .'   |
+                       :  '      ; ; `--..__.'-""/    ;\
+                        \  ,|    | |     ..--",-'     : ;
+             _     _.7`,_J- ;    : ;,      _,':      /; ;           _
+           .' `--.`-.`-'_.-| `.  |/ :    .'/ :      ; | |`".    _.-".+.
+           :`"-.  `--`"" ,_:   `'7 /.-.   ;  |     /  | :   7",' ."   |
+           :    \       :   `-. / ;'  /   |  |  `--\  /4   '    /  .' ;
+           `.    ;      \      :`"\ .&amp;lt;    ;  :   _.7 '  `.     /   /.'
+             \   `.___.-"&amp;gt;      ;_/   :---"\ `. '   `.-.. `"--'    /
+              `.___..--"/     _mMMMm,.'     `-.`-.._  )  `"--.   .'
+                       `---'"mMMMMMMMMm,_      `-----'        `""
+                            `" "^`^MMMP^^mm,
                                                           fsc
 &lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>
