@@ -1,7 +1,7 @@
 Title: Pelican plugin — Dead Link
 Date: 2016-10-19
 Category: software
-Status: published
+Status: draft
 Tags: pelican
 
 Recently I've been cleaning up old articles when I stumbled upon a problem

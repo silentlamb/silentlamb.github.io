@@ -94,6 +94,7 @@ Gimp -> pick blue color -> create clouds from filters -> motion blur -> create
 mosaic from filters. That's all!
 
 ##### Experience
+
 I still want to improve it, I got plenty of ideas so further development will
 be continued for sure. Now that I have already a playable it's gonna be much
 easier.
