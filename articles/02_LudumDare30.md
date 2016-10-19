@@ -1,21 +1,56 @@
-Title: LD30: Node54 - final thoughts
-Date: 2014-08-30
+Title: Ludum Dare 30 -- Node 54
+Date: 2014-08-23
+Modified: 2016-10-19
 Category: gamedev
 Status: published
-Tags: imported, ludum-dare, post-mortem
+Tags: imported, ludum-dare
+Thumbnail: thumb_ld30.png
 
-This article is an imported post from Ludum Dare website. I've posted it
-as a post mortem of my LD30 entry. It's added here so I can keep everything 
-related to a gamedev in a single place.
+This article is an imported set of post describing my participation in Ludum Dare 30.
+First part is a summary of Day 1, the second one describes final thoughts.
 
 <!-- PELICAN_END_SUMMARY -->
 
-### Node54 - final thoughts
+### Day 1: Let's meet Node54
 
-In the [previous post][1] published during competition, I've described my background
-and reasons to participate in Ludum Dare. This time I'd like to talk about
-conclusions that came to my mind after finishing LD30 entry and receiving
-feedback from various people.
+*introduction not imported*
+
+But I love game development. I read tons of stuff. I try to think about
+various algorithms or design patterns that might be used to resolve some
+problem that bugs me. The problem is, I haven't finish anything yet. All
+of my game development stops on the engine.
+
+So one day, looking at the calendar I saw that my wife with son are
+going out and they won't be at home for the whole weekend. And the great
+thing about it is that the same weekend belongs to LD30! So I thought to
+myself: why not try to sign in? And here I am.
+
+![Main screen of Node54]({filename}/images/0002-title.png){.img-thumbnail .center-block}
+
+So after 10h of design and development (Inkscape, GIMP, PyxelEdit, VS
+C++ & SFML lib) I've achieved the following state:
+
+- Simple rendering engine using stack states is done
+- Resources management (textures, fonts) is finished
+- Level loader that uses .png files as its input is finished
+- Level mechanics
+- Simple assets are finished: menu background, game background and
+
+Still to be done:
+
+- Collision detection, this is main mechanics
+- Player movement based on gravity
+- Audio effects & Music (there's gonna be no music probably as I don't 
+  know much about this topic)
+- Sprite polishing
+- Better input handling: Joystick support + rebindable keys
+- Maybe (big maybe) PCG-ed levels
+
+
+### Day 2: Final thoughts
+
+In this part of an article I'd like to talk about conclusions that came to my 
+mind after finishing LD30 entry and receiving feedback from various people.
 
 #### My goals
 
@@ -33,7 +68,6 @@ feedback from various people.
 - The game should be looking polished; it should have bindable keys, and
   reasonable amount of juicyness
 - The game should have possibility to be improved when LD30 is finished
-
 
 ![Node54 with an example level]({filename}/images/0003-level.png){.img-thumbnail .center-block}
 
@@ -148,16 +182,6 @@ starts moving. This little things that make every game look polished.
 
 ![Tilesets from the game]({filename}/images/0004-atlas.png){.img-thumbnail .center-block}
 
-#### What next?
-
-LD30 entry is finished so now it's plenty of time to resolve every issues and
-implement every feature I wanted. To make this game look the way I want it to
-look. I'm going to start a project devlog thread on TigSource forums if you are
-interested. If you want to give the game a try, here's the [entry page][2].
-
-*edit [2015-09-19]*: After few minor improvements (audio and visual 
-alarm when player's speed is too high, fixed sticking to walls bug) the
-project got dumped in order to work on different things.
 
 [1]: {filename}/articles/02_LD30_part1.md
 [2]: http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=40102
