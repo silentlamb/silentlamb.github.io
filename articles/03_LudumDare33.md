@@ -1,9 +1,9 @@
-Title: Ludum Dare 33 - Ghosty Game
+Title: Ludum Dare 33 — Ghosty Game
 Date: 2015-09-19
 Category: gamedev
 Status: published
 Tags: imported, ludum-dare
-Thumbnail: thumb_ld33.png
+Thumbnail: thumb_03.png
 
 This article is an imported set of post from Ludum Dare website in which 
 I'm describing my participation in Ludum Dare 33. It consists of 3 

@@ -1,10 +1,10 @@
-Title: Ludum Dare 30 -- Node 54
+Title: Ludum Dare 30 — Node 54
 Date: 2014-08-23
 Modified: 2016-10-19
 Category: gamedev
 Status: published
 Tags: imported, ludum-dare
-Thumbnail: thumb_ld30.png
+Thumbnail: thumb_02.png
 
 This article is an imported set of post describing my participation in Ludum Dare 30.
 First part is a summary of Day 1, the second one describes final thoughts.

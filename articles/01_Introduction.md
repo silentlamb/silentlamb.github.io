@@ -2,6 +2,7 @@ Title: Introduction to the blog
 Date: 2015-09-12
 Category: misc
 Status: published
+Thumbnail: thumb_01.png
 
 The blog is finally setup and running. Under the hood the software I use
 is [Pelican][1] to generate static HTML files from articles written in

@@ -1,8 +1,9 @@
-Title: New Beginning­— Melted Vertex Games
+Title: New Beginning — Melted Vertex Games
 Date: 2016-01-01
 Category: gamedev
 Status: published
 Tags: mvg, art
+Thumbnail: thumb_04.png
 
 January is a funny month. Gyms and swimming pools all over the world record 
 increased gainings. Side walks are full of wannabe runners and tobacco 
