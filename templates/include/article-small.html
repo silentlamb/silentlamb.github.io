@@ -1,14 +1,14 @@
 <article class="col-sm-12 media">
-  <div class="media-left media-middle">
+  <div class="col-sm-3 text-center">
       {%- if article.thumbnail %}
-      <img src="{{ SITEURL}}/images/{{ article.thumbnail }}" alt="Thumbnail" class="media-object img-thumbnail" />
+      <img src="{{ SITEURL}}/images/{{ article.thumbnail }}" alt="Thumbnail" class="img-thumbnail" />
       {%- else %}
-      <img src="{{ SITEURL }}/images/empty_thumb.png" alt="Empty thumbnail" class="media-object img-thumbnail" />
+      <img src="{{ SITEURL }}/images/empty_thumb.png" alt="Empty thumbnail" class="img-thumbnail" />
       {%- endif %}
   </div>
-  <div class="media-body">
+  <div class="col-sm-9">
     <header>
-      <h3 class="media-heading"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
+      <h3><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
       <p class="pubdate">Published: 
           <time title="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
       </p>
