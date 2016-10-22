@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/all.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-10-19T00:00:00+02:00</updated><entry><title>New Beginning — Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Marcin Gliński</title><link href="http://blog.marcinglinski.pl/" rel="alternate"></link><link href="http://blog.marcinglinski.pl/feeds/all.atom.xml" rel="self"></link><id>http://blog.marcinglinski.pl/</id><updated>2016-10-22T00:00:00+02:00</updated><entry><title>Pelican plugin — Dead Links</title><link href="http://blog.marcinglinski.pl/2016-10/pelican-plugin-dead-links.html" rel="alternate"></link><published>2016-10-22T00:00:00+02:00</published><updated>2016-10-22T00:00:00+02:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-10-22:2016-10/pelican-plugin-dead-links.html</id><summary type="html">&lt;p&gt;Recently I've been cleaning up old articles when I stumbled upon a problem
+with dead links. Some of the articles written 1-2 years ago were linking
+to non-existing pages. This post will describe a pelican plugin to 
+notify or/and deal with said issues.&lt;/p&gt;
+
+&lt;p&gt;Any feedback is more than welcome!&lt;/p&gt;
+&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;Plugin should work on both Python 2.7 and 3.5. Additionally it requires 
+following libraries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BeautifulSoup4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Clone repository from one of the possible sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Directly from &lt;a href="https://github.com/silentlamb/pelican-deadlinks"&gt;https://github.com/silentlamb/pelican-deadlinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;From a master branch of &lt;a href="https://github.com/getpelican/pelican-plugins"&gt;https://github.com/getpelican/pelican-plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let's assume destination is &lt;code&gt;./plugins/custom/deadlinks&lt;/code&gt;. Configuration file 
+should be changed as follow:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;PLUGINS_PATH&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="c1"&gt;# [...]&lt;/span&gt;
+    &lt;span class="s1"&gt;'plugins/custom'&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+     &lt;span class="c1"&gt;# [...]&lt;/span&gt;
+    &lt;span class="s1"&gt;'deadlinks'&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Or if you happen to use pelican-plugins directly, pull recent master.&lt;/p&gt;
+&lt;h3&gt;Settings&lt;/h3&gt;
+&lt;p&gt;To enable dead link checker, set the &lt;code&gt;DEADLINK_VALIDATE&lt;/code&gt; option in your Pelican 
+configuration file to &lt;code&gt;True&lt;/code&gt;. Additionally following options might be changed:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;DEADLINK_OPTS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;'archive'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;'classes'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'custom-class1'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'disabled'&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="s1"&gt;'labels'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;   &lt;span class="bp"&gt;True&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;table class="table table-bordered"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Default value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;archive&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;True/False. When enabled invalid links will be replaced with proper archive.org entry. http://example.org becomes http://web.archive.org/web/*/http://example.org&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;classes&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;List of classes to be added to anchor element&lt;/td&gt;
+&lt;td&gt;Empty list&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;labels&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Insert bootstrap's label after the anchor element&lt;/td&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Licence&lt;/h3&gt;
+&lt;p&gt;MIT&lt;/p&gt;</summary><category term="pelican"></category></entry><entry><title>New Beginning — Melted Vertex Games</title><link href="http://blog.marcinglinski.pl/2016-01/new-beginning-melted-vertex-games.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Marcin Gliński</name></author><id>tag:blog.marcinglinski.pl,2016-01-01:2016-01/new-beginning-melted-vertex-games.html</id><summary type="html">&lt;p&gt;January is a funny month. Gyms and swimming pools all over the world record 
 increased gainings. Side walks are full of wannabe runners and tobacco 
 industry records decline in profits.&lt;/p&gt;
 &lt;p&gt;I've decided to join the New Year's train and start something new. There are 
